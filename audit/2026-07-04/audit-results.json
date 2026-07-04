@@ -1,0 +1,221 @@
+{
+ "index": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 4,
+  "small": [
+   "WERIXO[93x23]",
+   "Preise-Seite[92x20]",
+   "Stellen Sie sie im Erstgespr[255x20]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ]
+ },
+ "leistungen": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "preise": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 4,
+  "small": [
+   "WERIXO[93x23]",
+   "Leistungsseiten[109x18]",
+   "Leistungsseiten[119x20]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "betriebsmodell": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 5,
+  "small": [
+   "WERIXO[93x23]",
+   "Mehr zur Standortbestimmung[239x31]",
+   "So sieht der Monatsbericht a[242x31]",
+   "Preise-Seite[89x19]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "monatsbericht": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "standortbestimmung": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "it-support": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "endpoint-schutz": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "endpoint-patch": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "backup": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "microsoft-365": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "sichere-ki-nutzung": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "sicherheit": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "warum-werixo": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 2,
+  "small": [
+   "WERIXO[93x23]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ },
+ "kontakt": {
+  "hscroll": 0,
+  "off": [],
+  "smallCount": 3,
+  "small": [
+   "WERIXO[93x23]",
+   "Ladungsfähige Anschrift im I[349x28]",
+   "+49 1556 5029989[126x15]"
+  ],
+  "h1c": 1,
+  "consoleErrors": [
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+   "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+  ]
+ }
+}
