@@ -4,90 +4,83 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Preise · WERIXO</title>
-<meta name="description" content="WERIXO Vorschau (privat, noindex)." />
-{noindex && <meta name="robots" content="noindex,nofollow" />}
-{!noindex && <link rel="canonical" href="https://werixo.de/" />}
-<!-- OG / Twitter -->
+<meta name="description" content="IT-Betreuung zum festen Monatspreis: 129 oder 159 Euro je Nutzer, 990 Euro pauschal für kleine Büros, NIS2-Sprint einmalig. Netto, transparent, ohne versteckte Staffel." />
+<meta name="robots" content="noindex,nofollow" />
 <meta property="og:title" content="WERIXO · Externe IT-Abteilung · Köln &amp; NRW" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://werixo.de/" />
+<meta property="og:url" content="https://werixo.de/preise/" />
 <meta property="og:image" content="https://werixo.de/og.png" />
 <meta property="og:locale" content="de_DE" />
 <meta name="twitter:card" content="summary_large_image" />
-<!-- Favicons + Manifest -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://werixo.de/#org", "name": "WERIXO", "url": "https://werixo.de/", "email": "info@werixo.de", "telephone": "+4915565029989", "description": "Externe IT-Abteilung für kleine und mittlere Unternehmen in Köln und NRW.", "areaServed": ["Köln", "Nordrhein-Westfalen"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "itemListElement": [{"@type": "Question", "name": "Gibt es eine Mindestzahl an Nutzern?", "acceptedAnswer": {"@type": "Answer", "text": "Nein. Die Abrechnung pro Nutzer beginnt ab einer Person. Für Büros bis zehn Nutzer ist der feste Pauschalpreis meist günstiger, wir sagen Ihnen offen, was für Ihre Größe passt."}}, {"@type": "Question", "name": "Kann ich später die Stufe wechseln?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Der Wechsel zwischen Essentials und Managed ist zum nächsten Monat möglich. Sie zahlen die Differenz, nicht doppelt, weil Managed auf Essentials aufbaut."}}, {"@type": "Question", "name": "Was ist nicht im Monatspreis enthalten?", "acceptedAnswer": {"@type": "Answer", "text": "Projektarbeit über den laufenden Betrieb hinaus, etwa ein Standortumzug oder eine Migration, rechnen wir getrennt nach Aufwand ab (140 € pro Stunde). Wo die Grenze jedes Bausteins liegt, steht auf den Leistungsseiten."}}, {"@type": "Question", "name": "Wann steht mein genauer Preis fest?", "acceptedAnswer": {"@type": "Answer", "text": "Nach der Standortbestimmung, schriftlich. Vorher gibt es keinen Vertrag und keinen Druck. Sie sehen die Zahl, dann entscheiden Sie."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "OfferCatalog", "name": "WERIXO Tarife", "provider": {"@id": "https://werixo.de/#org"}, "itemListElement": [{"@type": "Offer", "name": "Small Office Start", "price": "990", "priceCurrency": "EUR", "description": "Pauschal pro Monat, bis 10 Nutzer, netto zzgl. USt."}, {"@type": "Offer", "name": "Business Essentials", "price": "129", "priceCurrency": "EUR", "description": "Je Nutzer und Monat, netto zzgl. USt."}, {"@type": "Offer", "name": "Business Managed", "price": "159", "priceCurrency": "EUR", "description": "Je Nutzer und Monat, netto zzgl. USt."}, {"@type": "Offer", "name": "NIS2-Sprint", "price": "1490", "priceCurrency": "EUR", "description": "Einmalig, rund 4 Wochen, netto zzgl. USt."}]}</script>
+<style>
+.ft-base .ft-col a{display:inline-flex;align-items:center;min-height:44px}
+.brand{padding-block:10px}
+</style>
+
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="manifest" href="/manifest.webmanifest" />
-<!-- Plausible Analytics, cookieless, EU-only (siehe /datenschutz §4) -->
 <script defer data-domain="werixo.de" src="https://plausible.io/js/script.js"></script>
-<!-- JSON-LD Strukturierte Daten. PRIVATSPHÄRE (José 2026-06-24): Marketing-Seiten ohne
-     persönliche Daten (kein legalName/Anschrift/Inhaber-Person). LocalBusiness mit Anschrift
-     nur auf Seiten mit lokalem Intent (localBusiness=true). Volle Anschrift bleibt im Impressum. -->
-{localBusiness &&}
-{offerCatalog && <JsonLDOfferCatalog />}
-<!-- Chakra Petch: self-hosted (kein Google Fonts → DSGVO-konform + CSP 'self') -->
 <style is:global>
-  /* CANÓNICO 2 Schriften: Chakra Petch (Titel + Text, Gewicht trennt) + Departure Mono (Daten/Mono) — self-hosted, DSGVO-konform, kein Google Fonts CDN */
+  
   @font-face{font-family:'Chakra Petch';font-weight:400;src:url('./fonts/chakra-petch-400.woff2') format('woff2');font-display:swap}
   @font-face{font-family:'Chakra Petch';font-weight:500;src:url('./fonts/chakra-petch-500.woff2') format('woff2');font-display:swap}
   @font-face{font-family:'Chakra Petch';font-weight:600;src:url('./fonts/chakra-petch-600.woff2') format('woff2');font-display:swap}
   @font-face{font-family:'Chakra Petch';font-weight:700;src:url('./fonts/chakra-petch-700.woff2') format('woff2');font-display:swap}
-  /* Hanken Grotesk ELIMINADA (José 2026-06-06): sistema de 2 fuentes = Chakra Petch + Departure Mono. */
-  /* Geist Pixel Line — centro COBE, self-hosted (repo shuding/cobe) */
+  
+  
   @font-face{font-family:'Geist Pixel Line';src:url('./fonts/GeistPixel-Line.woff2') format('woff2');font-display:swap}
-  /* Departure Mono — la mono REAL de cobe (labels, arc-labels, anillo). OFL, self-hosted */
+  
   @font-face{font-family:'Departure Mono';src:url('./fonts/DepartureMono-Regular.woff2') format('woff2');font-display:swap}
-  /* Inter — Body/Fließtext (José 2026-06-18): humanistische Sans, lesbar für GF 55+. Chakra Petch bleibt Headlines, Departure bleibt Daten/Labels. OFL, self-hosted woff2 (latin subset), kein Google-Fonts-CDN. */
+  
   @font-face{font-family:'Inter';font-weight:400;src:url('./fonts/inter-400.woff2') format('woff2');font-display:swap}
   @font-face{font-family:'Inter';font-weight:500;src:url('./fonts/inter-500.woff2') format('woff2');font-display:swap}
   @font-face{font-family:'Inter';font-weight:600;src:url('./fonts/inter-600.woff2') format('woff2');font-display:swap}
   @font-face{font-family:'Inter';font-weight:700;src:url('./fonts/inter-700.woff2') format('woff2');font-display:swap}
 
   :root{
-    --bg:#FFFFFF; --surface:#FFFFFF; --ink:#1A1612;  /* CANONICAL 2026-06-28: bg/surface=#FFFFFF (Crema-Reversión José 2026-06-10 gilt). Ink=#1A1612 warm (José canonical). Kalt-PRUEBA #F6F9FC/#13151A revertiert. */
+    --bg:#FFFFFF; --surface:#FFFFFF; --ink:#1A1612;  
     --ink-2:rgba(26,22,18,.60); --ink-3:rgba(26,22,18,.40);
     --hair:rgba(26,22,18,.12); --hair-soft:rgba(26,22,18,.07);
-    --accent:#FF5A3C; --accent-ink:#C2410C; --accent-soft:rgba(255,90,60,.10);   /* coral aprobado (stella/v5); --accent-ink = coral oscuro AA (~5:1) NUR fuer kleinen Coral-Text/Links auf hell */
-    --cobe:rgba(19,21,26,.5);  /* Pieza 1: color del componente cobe → coral WERIXO (antes azul) */
-    --wx-abyss:#0A0E16; --wx-abyss-2:#0E1320;  /* KANONISCH (José 2026-06-18): kühle Tiefdunkel-Fläche (KEIN Akzent), für „lebendiges System"-Sektionen. Erst Pilot auf der KI-Seite, jetzt site-wide verfügbar. Akzent bleibt Coral. */
-    --display:"Chakra Petch",sans-serif; --body:"Inter","Chakra Petch",system-ui,sans-serif; /* 3-Schriften (José 2026-06-18): Headlines = Chakra Petch (--display), Fließtext/Body = Inter (lesbar GF 55+), Daten/Mono = Departure Mono. Chakra als Body-Fallback falls Inter 404. */
-    --mono:'Departure Mono',ui-monospace,monospace; --pixel:"Geist Pixel Line",monospace; /* PRUEBA idea 1: mono del hero = Departure Mono */
+    --accent:#FF5A3C; --accent-ink:#C2410C; --accent-soft:rgba(255,90,60,.10);   
+    --cobe:rgba(19,21,26,.5);  
+    --wx-abyss:#0A0E16; --wx-abyss-2:#0E1320;  
+    --display:"Chakra Petch",sans-serif; --body:"Inter","Chakra Petch",system-ui,sans-serif; 
+    --mono:'Departure Mono',ui-monospace,monospace; --pixel:"Geist Pixel Line",monospace; 
     --cobe-mono:'Departure Mono',ui-monospace,monospace;
-    --eyebrow:0.85rem;  /* KANONISCH (José 2026-06-07): einheitliche Eyebrow/Kicker-Größe (Mono-Label „IT-Sicherheit ist Chefsache" usw.), überall gleich, einen Tick größer als vorher (.74–.78) */
+    --eyebrow:0.85rem;  
     --cw:1300px;
   }
   *{box-sizing:border-box}
-  /* MOBILE-FIRST: html UND body kappen horizontalen Overflow. Sonst weiten Entrance-Transforms (GSAP-Slam im Bento,
-     die Karten starten seitlich verschoben) das Dokument auf > Viewport → fixed-Header dehnt sich, Querscroll auf Mobile. */
+  
   html{overflow-x:clip}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:clip}
 
-  /* A11y-Basis global (Zielgruppe GF 55+): sichtbarer Tastatur-Fokus überall + kein Tap-Delay/blaues Tap-Flash auf Touch.
-     Komponenten-eigene :focus-visible-Regeln (höhere Spezifität, z.B. a.it-card) überschreiben diesen Basis-Ring. */
+  
   a,button,[role="button"],input,select,textarea,summary,label[for]{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
   a:focus-visible,button:focus-visible,[role="button"]:focus-visible,[tabindex]:not([tabindex="-1"]):focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-  /* Visually hidden aber programmatisch sichtbar (Screenreader, Tastaturnavigation) */
+  
   .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-  /* Skip-to-Content Link (WCAG 2.4.1): erscheint nur bei Fokus (Tastaturnavigation) */
+  
   .skip-link{position:absolute;top:-60px;left:18px;z-index:9999;padding:10px 18px;background:var(--ink);color:#fff;font-family:var(--body);font-size:.95rem;font-weight:600;border-radius:0 0 8px 8px;text-decoration:none;transition:top .15s}
   .skip-link:focus{top:0;outline:2px solid var(--accent);outline-offset:2px}
-  /* Ankermarke für den Skip-Link (kein visueller Effekt) */
+  
   .skip-target{outline:none}
 
-  /* ===== HEADER „Dunkel" (Komplett-Neu José 2026-06-24): kompletter Bruch — voll-breite,
-     warm-schwarze Leiste statt aller hellen Glas-/Instrument-/Service-Varianten. Helle
-     Wortmarke, ruhige helle Nav (Hover nur Farbe), Coral-CTA als EINZIGER kräftiger Akzent.
-     Keine Crop-Marks, keine Service-Leiste, keine Elektrizität, kein Floating-Card. ===== */
+  
   .topwrap{position:fixed;top:0;left:0;right:0;z-index:60;transition:transform .32s cubic-bezier(.4,0,.2,1)}
-  .topwrap.hdr-hidden{transform:translateY(-115%)}   /* Mobile: beim Runterscrollen weg, beim Hoch wieder da (JS) */
+  .topwrap.hdr-hidden{transform:translateY(-115%)}   
   .hdr{background:rgba(255,255,255,.93);backdrop-filter:saturate(150%) blur(12px);border-bottom:1px solid var(--hair);box-shadow:0 6px 22px -18px rgba(19,21,26,.3)}
   .crop{display:none}
-  .hu-phone,.hu-item,.hu-mail{display:none}   /* Service-Leiste-Reste: aus */
+  .hu-phone,.hu-item,.hu-mail{display:none}   
   .hdr-main{max-width:1280px;margin:0 auto;padding:16px clamp(18px,4vw,46px);display:flex;align-items:center;justify-content:space-between;gap:24px}
   .brand{display:flex;align-items:flex-end;gap:.22ch;font-family:var(--display);font-weight:700;letter-spacing:-.02em;font-size:1.62rem;color:var(--ink);-webkit-text-stroke:.6px var(--ink);text-decoration:none;line-height:1}
   .brand .dot{width:.3em;height:.3em;border-radius:0;background:var(--accent);margin-bottom:.1em}
-  /* Nav ruhig: lesbare Wörter (Inter), Hover nur Farbe */
+  
   .nav{display:none;align-items:center;gap:clamp(4px,1.1vw,14px)}
   .nav-item{position:relative}
   .nav-link{font-family:var(--body);font-weight:500;font-size:1rem;color:var(--ink);line-height:1;text-decoration:none;padding:10px 7px;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;cursor:pointer;background:none;border:0;transition:color .16s}
@@ -95,7 +88,7 @@
   .nav-link .chev{width:13px;transition:transform .2s}
   .nav-item.open .nav-link .chev{transform:rotate(180deg)}
   .head-right{display:flex;align-items:center;gap:14px}
-  /* CTA: Coral solid = einziger kräftiger Akzent auf Dunkel */
+  
   .head-cta{font-family:var(--body);font-weight:600;font-size:.94rem;color:#fff;line-height:1;text-decoration:none;background:var(--accent);padding:0 22px;height:46px;min-height:46px;border-radius:9px;white-space:nowrap;display:inline-flex;align-items:center;transition:background .18s}
   .head-cta:hover{background:#ff6f54}
   .head-cta .hc-ic{display:none;width:21px;height:21px}
@@ -110,18 +103,17 @@
     width:min(660px,92vw);background:var(--surface);border:1px solid var(--hair);border-radius:16px;
     box-shadow:0 30px 70px -24px rgba(19,21,26,.4);padding:14px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s,transform .2s;z-index:70}
   .nav-item.open .mega{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
-  /* Unsichtbare Brücke über den 12px-Spalt: hält den Hover beim Weg vom Nav-Wort zur Karte, sonst klappt sie weg. */
+  
   .mega::before{content:"";position:absolute;left:0;right:0;top:-16px;height:16px}
   .mega-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px}
   .mega-it{display:flex;gap:12px;padding:12px;border-radius:11px;text-decoration:none;transition:background .15s}
   .mega-it:hover{background:#F4F5F7}
   .mega-ic{width:34px;height:34px;flex:none;border-radius:9px;background:var(--accent-soft);display:grid;place-items:center;color:var(--accent)}
   .mega-ic svg{width:18px;height:18px}
-  /* Lottie-Icon füllt den Chip → Padding gibt ihm Luft; inline 100% von lottie überschreiben */
+  
   .mega-ic[data-mega-lottie]{padding:7px;box-sizing:border-box;background:rgba(26,22,18,.06);transition:background .15s}
   .mega-ic[data-mega-lottie] svg{width:100%!important;height:100%!important;display:block}
-  /* Ruhezustand neutral (Tinte), Hover → Coral: Akzent erscheint nur unter dem Zeiger, nicht im Block.
-     lottie malt stroke/fill als Attribut → CSS-Regel gewinnt, auch während die Animation neu zeichnet. */
+  
   .mega-it:hover .mega-ic[data-mega-lottie]{background:var(--accent-soft)}
   .mega-it:hover .mega-ic[data-mega-lottie] svg [stroke]{stroke:var(--accent)!important}
   .mega-it:hover .mega-ic[data-mega-lottie] svg [fill]:not([fill="none"]){fill:var(--accent)!important}
@@ -129,12 +121,12 @@
   .mega-d{display:block;font-family:var(--body);font-size:.85rem;color:var(--ink-2);line-height:1.45;margin-top:4px}
   .mega-foot{margin-top:6px;border-top:1px solid var(--hair-soft);padding:12px 12px 4px;display:flex;justify-content:space-between;align-items:center}
   .mega-foot a{font-family:var(--mono);font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--accent-ink);text-decoration:none}
-  /* Dropdown für Betriebsmodell/Der Bericht/Preise: erbt das Leistungen-Design (Icon-Chip + Titel + Beschreibung), 1 Spalte. */
+  
   .mega.mega-sm{width:max-content;min-width:320px;max-width:400px;padding:10px}
   .mega-sm .mega-grid{grid-template-columns:1fr;gap:2px}
   .mega-price{font-family:var(--mono);font-size:.74rem;letter-spacing:.02em;color:var(--accent-ink);margin-left:6px;white-space:nowrap;font-weight:400}
-  /* Leistungen-Mega = 3 Spalten nach Ergebnis (Betrieb/Schutz/Nachweis, Hybrid-Katalog). Erbt .mega-it. */
-  /* Breit + linksbündig zum Trigger (sonst läuft das zentrierte Panel links aus dem Viewport, da „Leistungen" links sitzt). */
+  
+  
   .mega.mega-lst{width:min(780px,95vw);padding:12px;left:0;transform:translateX(0) translateY(8px)}
   .nav-item.open .mega.mega-lst{transform:translateX(0) translateY(0)}
   .mega-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:2px 8px}
@@ -148,9 +140,9 @@
   .mega-lst .mega-t{font-size:.9rem}
   .mega-lst .mega-d{font-size:.78rem;margin-top:2px;line-height:1.35}
   @media(max-width:760px){ .mega-cols{grid-template-columns:1fr} }
-  /* ── Header rechts: CTA + Menü-Trigger (an allen Breiten) ── */
+  
   .head-right{display:flex;align-items:center;gap:14px}
-  /* Menü-Trigger: ruhiges Wort + zwei feine Linien (werden zu X beim Öffnen). Kein Bracket-Lärm. */
+  
   .burger{display:none;align-items:center;gap:11px;height:44px;min-height:44px;flex:none;background:transparent;border:0;color:var(--ink);font-family:var(--body);font-weight:500;font-size:.92rem;letter-spacing:.02em;text-transform:none;cursor:pointer;padding:0 4px}
   @media(max-width:1079px){.burger{display:inline-flex}}
   .burger .mb-l{display:inline-flex;flex-direction:column;gap:5px;width:24px}
@@ -161,7 +153,7 @@
   html.mob-open .burger .mb-l i:nth-child(2){opacity:0}
   html.mob-open .burger .mb-l i:nth-child(3){transform:translateY(-6.6px) rotate(-45deg);width:24px}
   @media(max-width:420px){.burger .mb-t{display:none}}
-  /* ── Mobile-Navigation Vollbild-Panel ── */
+  
   .mobnav{position:fixed;inset:0;z-index:200;background:#F6F9FC;
     opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-8px);transition:opacity .28s ease,transform .28s ease,visibility .28s;overflow-y:auto;-webkit-overflow-scrolling:touch}
   .mobnav::before,.mobnav::after{content:"";position:absolute;width:14px;height:14px;pointer-events:none;opacity:.7}
@@ -179,7 +171,7 @@
   .mn-nav{display:flex;flex-direction:column}
   .mn-link{display:flex;align-items:baseline;gap:16px;padding:18px 0;border-top:1px solid var(--hair);text-decoration:none;color:var(--ink)}
   .mn-nav > *:first-child{border-top:0}
-  /* Leistungen = Akkordeon-Toggle (Button), öffnet/schließt die Unterpunkte. Andere Links navigieren direkt. */
+  
   .mn-toggle{width:100%;background:none;border:0;border-top:1px solid var(--hair);font:inherit;cursor:pointer;text-align:left;align-items:center;-webkit-tap-highlight-color:transparent}
   .mn-n{font-family:var(--mono);font-size:.82rem;color:var(--accent);flex:none}
   .mn-t{font-family:var(--display);font-weight:700;font-size:1.6rem;letter-spacing:-.01em;line-height:1}
@@ -204,13 +196,13 @@
   .mn-foot{font-family:var(--mono);font-size:.78rem;letter-spacing:.04em;color:var(--ink-2);text-align:center;margin:22px 0 0}
   @media(prefers-reduced-motion:reduce){.mobnav{transition:opacity .01s} .burger span{transition:none}}
 
-  /* HERO grid 2 columnas centrado: globo izquierda, texto derecha */
+  
   .hero{position:relative;min-height:100svh;display:grid;align-items:center;padding:120px 0 40px;overflow:hidden;background:var(--bg)}
-  /* Hero-Mesh: malla de puntos que rellena solo el vacío, recortando la silueta (globo + texto). Detrás del contenido, no captura el cursor. */
+  
   #hero-mesh{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
   .hero>.cw{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,520px);gap:clamp(28px,4vw,72px);align-items:center}
 
-  /* ── Componente COBE exacto ── */
+  
   .globe-wrap{position:relative;z-index:1;justify-self:center;width:100%;max-width:520px;aspect-ratio:1}
   #cobe{width:100%;height:100%;aspect-ratio:1;display:block;border-radius:50%;opacity:0;transition:opacity .8s ease}
   #cobe.in{opacity:1}
@@ -220,7 +212,7 @@
     -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,.1) 40%,#000 48%,#000 100%);
     mask-image:linear-gradient(to bottom,rgba(0,0,0,.1) 40%,#000 48%,#000 100%)}
   .orbit-svg{width:100%;height:100%;transform:rotateX(62deg);transform-origin:center;animation:orbit-spin 30s linear infinite,cobe-fade 1.7s ease .5s both}
-  .orbit-svg text{font-family:var(--cobe-mono);font-weight:500;font-size:6px;letter-spacing:.13em;fill:var(--accent);text-transform:uppercase}   /* Orbit-Ring Coral (José 2026-06-15). .13em llena la circunferencia sin hueco (178 chars Departure Mono) */
+  .orbit-svg text{font-family:var(--cobe-mono);font-weight:500;font-size:6px;letter-spacing:.13em;fill:var(--accent);text-transform:uppercase}   
   @keyframes orbit-spin{from{transform:rotateX(62deg) rotateZ(0)}to{transform:rotateX(62deg) rotateZ(-360deg)}}
   @keyframes cobe-fade{from{opacity:0}to{opacity:1}}
   .cobe-lbl{position:absolute;z-index:4;bottom:anchor(top);left:anchor(center);translate:-50% 0;margin-bottom:8px;
@@ -228,13 +220,10 @@
     text-transform:uppercase;white-space:nowrap;pointer-events:none;box-shadow:0 3px 12px rgba(0,0,0,.34);transition:opacity .8s,filter .8s}
   .cobe-lbl::after{content:'';position:absolute;top:100%;left:50%;transform:translate3d(-50%,-1px,0);border:5px solid transparent;border-top-color:#000}
   .arc-lbl{position:absolute;z-index:4;bottom:anchor(top);left:anchor(center);translate:-50% 0;margin-bottom:8px;
-    padding:.15rem .35rem;background:var(--surface);color:var(--accent-ink);font-family:var(--cobe-mono);font-size:.6rem;letter-spacing:.08em;  /* arc-labels (Reaktion/Resilienz) en coral-ink #C2410C, AA-legible sobre claro (José 2026-06-16, antes gris --cobe) */
+    padding:.15rem .35rem;background:var(--surface);color:var(--accent-ink);font-family:var(--cobe-mono);font-size:.6rem;letter-spacing:.08em;  
     text-transform:uppercase;white-space:nowrap;pointer-events:none;border:1px solid rgba(19,21,26,.10);box-shadow:0 4px 14px rgba(0,0,0,.20);transition:opacity .8s,filter .8s}
   .arc-lbl::after{content:'';position:absolute;top:100%;left:50%;transform:translate3d(-50%,-1px,0);border:5px solid transparent;border-top-color:var(--surface)}
-  /* Anclaje de cada label a su marker/arc, en CSS (no style inline: el CSP
-     bloquea los style attributes). La VISIBILIDAD front/back va por la clase
-     .cv (toggle desde el tick del globo) porque el <style> dinámico que cobe
-     usa para ello también lo bloquea el CSP; classList no está sujeto al CSP. */
+  
   .cobe-lbl,.arc-lbl{opacity:0;filter:blur(6px)}
   .cobe-lbl.cv,.arc-lbl.cv{opacity:1;filter:none}
   .cobe-lbl[data-cobe="sf"]{position-anchor:--cobe-sf}
@@ -256,7 +245,7 @@
     margin:0 0 30px;opacity:0;animation:rise .7s .05s ease forwards}
   .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
   h1.head{font-family:var(--display);font-weight:800;letter-spacing:-.03em;line-height:1.0;margin:0 0 24px;
-    font-size:clamp(2rem,6.3vw,3.8rem)}   /* LCP: H1 sichtbar ab Frame 1 (kein opacity:0-Entrance) */
+    font-size:clamp(2rem,6.3vw,3.8rem)}   
   h1.head .accent{color:var(--accent)}
   h1.head .wxb{position:relative;color:var(--ink);white-space:nowrap}
   h1.head .wxb::after{content:"";position:absolute;left:-.02em;right:-.02em;bottom:.05em;height:.12em;background:var(--accent);border-radius:.1em;transform:scaleX(0);transform-origin:left;animation:wxul .6s 1.05s cubic-bezier(.2,.85,.25,1) forwards}
@@ -274,7 +263,7 @@
   .btn.ink:hover{background:#000;transform:translateY(-3px) scale(1.02);box-shadow:0 1px 2px rgba(19,21,26,.10),0 16px 32px -16px rgba(19,21,26,.40)}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
   .trust{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 28px;font-family:var(--mono);font-size:.95rem;letter-spacing:.02em;color:var(--ink);opacity:0;animation:rise .8s .52s ease forwards}
-  .trust span{min-width:0}   /* permite que el texto largo envuelva en vez de recortarse */
+  .trust span{min-width:0}   
   .trust span{display:inline-flex;align-items:center;gap:9px}
   .trust span svg{width:1.18em;height:1.18em;flex:none;color:var(--accent)}
   .trust .ico{width:1.18em;height:1.18em}
@@ -287,24 +276,21 @@
     .eyebrow{justify-content:center}
     .ctas,.trust{justify-content:center}
   }
-  /* Mobile real (iPhone): trust en 1 columna (evita overflow), WERIXO central proporcionado al globo, labels más pequeños (NO ocultos) */
+  
   @media(max-width:600px){
     .hero{padding:96px 0 44px}
-    .ctas{flex-direction:column;align-items:stretch}             /* CTAs apilados a igual ancho, touch-target uniforme */
+    .ctas{flex-direction:column;align-items:stretch}             
     .ctas .btn{width:100%;justify-content:center}
-    .trust{grid-template-columns:1fr;justify-items:start;width:fit-content;margin:0 auto;gap:12px}  /* bloque centrado, items a la izq → iconos alineados en columna */
+    .trust{grid-template-columns:1fr;justify-items:start;width:fit-content;margin:0 auto;gap:12px}  
     .globe-wrap{width:min(330px,86vw)}
-    .globe-overlay .gw{font-size:.95rem;letter-spacing:.04em}                 /* WERIXO cabe dentro del globo, sin tocar el borde */
-    .cobe-lbl,.arc-lbl{font-size:.5rem;padding:.1rem .26rem}     /* etiquetas vuelven, solo más pequeñas */
+    .globe-overlay .gw{font-size:.95rem;letter-spacing:.04em}                 
+    .cobe-lbl,.arc-lbl{font-size:.5rem;padding:.1rem .26rem}     
   }
 
-  /* SEKTION „Problem" (Fünf Fragen, .prob/.pq) am 2026-06-15 entfernt → ersetzt durch „Der Test". CSS hier mitgelöscht (war tot). */
+  
 
-  /* ══ SECCIÓN · Positionierung „Was wir tun · Für wen · Warum anders" ══
-     Fórmula: qué hacemos + para quién + por qué distintos. 3 tarjetas cuadradas (lenguaje aprobado: radius 0,
-     borde 2px tinta, sombra dura), fondo de puntos como el footer. La 3ª (Warum anders = el Beleg) es oscura = foco.
-     Entra escalonada con fade-up. Reemplaza el manifiesto abstracto + la comparación Blackbox|WERIXO. */
-  /* Punktraster entfernt 2026-06-14 (nur Hero + .ft behalten). */
+  
+  
   .pos{position:relative;background:var(--bg);padding:clamp(24px,4vh,56px) 0 clamp(88px,14vh,180px)}
   .pos .cw{max-width:1180px}
   .pos-head{max-width:780px;margin:0 0 clamp(44px,6vh,68px)}
@@ -312,11 +298,10 @@
   .pos-kicker .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
   .pos-h{font-family:var(--display);font-weight:700;font-size:clamp(1.8rem,3.4vw,2.9rem);line-height:1.12;letter-spacing:-.02em;color:var(--ink);margin:0}
   .pos-h .ac{font-style:normal;color:var(--accent)}
-  /* ── RHYTHM-VARIANTE 2026-06-15: „drei Sätze" als Kino-Banner + horizontale Triade.
-     Bricht das wiederholte „Liste + Seitenfoto"-Muster (identisch zu „Der Test"). Foto bleibt menschlich, wird größer. ── */
+  
   .pos-head{max-width:840px;margin:0 0 clamp(28px,4vh,44px)}
   .pos-split{display:flex;flex-direction:column;gap:clamp(30px,3.4vw,46px)}
-  /* Foto = volle Breite, kinoartig (21:8) */
+  
   .pos-img-wrap{position:relative;width:100%;border-radius:20px;overflow:hidden;aspect-ratio:21/8;
     box-shadow:0 1px 2px rgba(19,21,26,.04),0 30px 64px -34px rgba(19,21,26,.30),0 2px 8px rgba(19,21,26,.06)}
   .pos-img-wrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 36%;display:block}
@@ -324,12 +309,11 @@
   .pos-tag{position:absolute;top:18px;right:18px;z-index:2;background:var(--accent);color:#fff;
     font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;
     padding:5px 12px;border-radius:100px;pointer-events:none}
-  /* Triade: drei Sätze nebeneinander, je mit kräftiger Ink-Oberkante (redaktioneller Index-Look) */
+  
   .pos-stmts{display:grid;grid-template-columns:1fr;gap:0}
   @media(min-width:760px){ .pos-stmts{grid-template-columns:repeat(3,1fr);gap:clamp(26px,2.6vw,44px)} }
   .pos-stmt{display:flex;flex-direction:column;gap:12px;padding:clamp(20px,2.2vw,26px) 0;border-top:2px solid var(--ink)}
-  /* Anti-Slop 2026-07-03: aus 01/02/03 werden sprechende Mono-Marken (Was · Für wen · Was anders ist).
-     Nummern nur noch dort, wo eine echte Reihenfolge existiert (Test-Fragen, Bericht-Kapitel). */
+  
   .pos-num{font-family:var(--mono);font-size:.82rem;font-weight:400;line-height:1;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink)}
   .pos-stmt-body{display:flex;flex-direction:column;gap:8px}
   .pos-stmt-h{font-family:var(--display);font-weight:700;font-size:clamp(1.12rem,1.5vw,1.32rem);line-height:1.18;letter-spacing:-.02em;color:var(--ink);margin:0}
@@ -346,8 +330,7 @@
     .pos-img-wrap img{transition:transform .5s cubic-bezier(.22,1,.36,1)}
     .pos-img-wrap:hover img{transform:scale(1.03)}
   }
-  /* Text-Link statt drittem Coral-Button (CTA-Entdopplung 2026-07-03): AA-sicheres Coral-Ink,
-     44px Touch-Höhe, Pfeil schiebt bei Hover. */
+  
   .pos-lnk{display:inline-flex;align-items:center;gap:10px;min-height:44px;
     font-family:var(--display);font-weight:600;font-size:clamp(1.02rem,1.3vw,1.14rem);letter-spacing:-.01em;
     color:var(--accent-ink);text-decoration:none}
@@ -358,14 +341,14 @@
   }
   @media(prefers-reduced-motion:reduce){ .pos-split *{animation:none!important;transition:none!important} }
 
-  /* Sektion „Der Wechsel" entfernt (José 2026-06-08): Grid/Artefakt-Karten = generisch („feature grid", Stock-Icon-Look). Neukonzept folgt. */
+  
 
-  /* ══ FOOTER · „Der erste Bericht" ══ cierra el bucle del hero: el Nachweis hecho objeto + el gancho de cita */
+  
   .ft{position:relative;background:var(--bg);color:var(--ink);border-top:1px solid var(--hair);
     background-image:radial-gradient(rgba(19,21,26,.05) 1px,transparent 1px);background-size:22px 22px}
   .ft .cw{position:relative;z-index:1}
 
-  /* Briefkopf — wordmark gigante. display:contents → Kopf (.ft-head) + Karte werden direkte Grid-Items von .ft-body. */
+  
   .report-col{display:contents}
   .ft-eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin:0 0 22px}
   .ft-eyebrow .dot{width:7px;height:7px;background:var(--accent)}
@@ -373,9 +356,8 @@
   .ft-word text{font-family:var(--display);font-weight:700;font-size:64px;fill:var(--ink);stroke:var(--ink);stroke-width:2.4px;paint-order:stroke fill;stroke-linejoin:miter}
   .ft-word .wdot{fill:var(--accent)}
 
-  /* cuerpo 2 col: informe + conversión */
-  /* Originale Spaltenbreiten (Bericht breit, Kalender 440). 2 Zeilen (Kopf | Karte): beide Karten in Zeile 2
-     → gleiche Höhe + gleicher Top/Bottom, unabhängig von der Kopfhöhe (José 2026-06-08: nur Höhe angleichen, Breite NICHT ändern). */
+  
+  
   .ft-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);grid-template-rows:auto 1fr;gap:clamp(28px,4vw,64px);align-items:stretch;
     padding:clamp(52px,7vw,100px) 0 clamp(44px,5vw,80px)}
   @media(min-width:901px){
@@ -385,7 +367,7 @@
     .cal{grid-column:2;grid-row:2}
   }
 
-  /* tarjeta-informe (Beleg) — estira a la altura del calendario, filas repartidas */
+  
   .report{display:flex;flex-direction:column;background:#fff;border:1px solid var(--hair);border-radius:16px;padding:clamp(22px,2.4vw,32px);box-shadow:0 24px 60px -30px rgba(19,21,26,.4)}
   .rrows{flex:1;display:flex;flex-direction:column;justify-content:space-between}
   .report-top{display:flex;justify-content:space-between;align-items:baseline;gap:14px;border-bottom:1px solid var(--hair-soft);padding-bottom:16px;margin-bottom:18px}
@@ -406,19 +388,17 @@
   .report-foot .rf-cta span{color:var(--accent);transition:transform .16s}
   @media(hover:hover){.report-foot .rf-cta:hover{color:var(--accent)}.report-foot .rf-cta:hover span{transform:translateX(3px)}}
 
-  /* conversión + calendario */
+  
   .convo{display:contents}
   .convo h2{font-family:var(--display);font-weight:700;font-size:clamp(1.6rem,2.6vw,2.3rem);letter-spacing:-.025em;line-height:1.08;margin:0 0 14px}
   .convo .lead{font-size:1rem;line-height:1.5;color:var(--ink-2);margin:0 0 24px;font-family:var(--body)}
 
-  /* Eigener Kalender im WERIXO-Stil (Departure Mono), Motor = Cal.com EU REST (echte Slots + echte Buchung). Kein iframe. */
-  /* FESTE Höhe: die Karte ist ein eigenständiges Seiten-System (Monat → Uhrzeiten → Formular → Bestätigung).
-     Die Ansichten wechseln INTERN, die Karte wächst nie und streckt das Layout nicht. Jede Ansicht scrollt bei Bedarf selbst. */
+  
+  
   .cal{border:1px solid var(--hair);border-radius:16px;background:#fff;padding:18px;box-shadow:0 18px 44px -28px rgba(19,21,26,.35);display:flex;flex-direction:column;height:560px;overflow:hidden}
-  /* Versteckte Ansichten dürfen KEINEN Platz belegen (sonst teilt flex die Höhe auf alle auf → aktive Ansicht zu klein).
-     !important schlägt das display:flex der aktiven Regeln, damit [hidden] immer gewinnt. */
+  
   .cal>[hidden]{display:none!important}
-  /* Aktive Ansicht füllt die Karte; bei Bedarf scrollbar, aber OHNE sichtbare Scrollleiste (José: keine Bildlaufleiste). */
+  
   .cal-month,.cal-slots,.cal-form{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:none;-ms-overflow-style:none}
   .cal-done{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center}
   .cal-month::-webkit-scrollbar,.cal-slots::-webkit-scrollbar,.cal-form::-webkit-scrollbar{display:none}
@@ -439,9 +419,9 @@
   .cal-day.has-slots{position:relative}
   .cal-day.has-slots::after{content:'';position:absolute;bottom:5px;left:50%;transform:translateX(-50%);width:4px;height:4px;border-radius:50%;background:var(--accent);pointer-events:none;transition:opacity .14s}
   .cal-day.has-slots:hover::after,.cal-day.has-slots:focus::after{opacity:0}
-  /* Lade-/Leerzustand des Monatsrasters */
+  
   .cal-grid-msg{grid-column:1/-1;font-family:var(--mono);font-size:.78rem;letter-spacing:.03em;color:var(--ink-2);text-align:center;padding:38px 0;text-transform:uppercase}
-  /* Monatsansicht füllt die Karte; Info-Fuß sitzt unten (kein leerer Weißraum unter den Tagen) */
+  
   .cal-month{display:flex;flex-direction:column;flex:1}
   .cal-mfoot{margin-top:auto;padding-top:12px}
   .cal-mflist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
@@ -449,12 +429,12 @@
   .cal-mflist li svg{width:15px;height:15px;flex:none;color:var(--accent);margin-top:1px}
   .cal-mfnote{margin:10px 0 0;padding-top:10px;border-top:1px solid var(--hair-soft);font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-3);line-height:1.5}
   .cal-mfnote a{color:#C2410C;text-decoration:underline;text-underline-offset:2px}
-  /* Panel de horarios inline (al pulsar un día) */
+  
   .cal-slots-top{display:flex;align-items:center;gap:12px;margin-bottom:14px}
   .cal-back{border:1px solid var(--hair);background:#fff;border-radius:9px;padding:7px 12px;font-family:var(--mono);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);cursor:pointer;transition:background .15s,border-color .15s}
   .cal-back:hover{background:var(--accent-soft);border-color:var(--accent)}
   .cal-slots-date{font-family:var(--display);font-weight:600;font-size:.96rem;letter-spacing:-.01em}
-  /* Uhrzeiten: strategische Auswahl (eine je Stunde), gruppiert Vormittag/Nachmittag, vertikal zentriert → keine halbe leere Karte */
+  
   .cal-slots{display:flex;flex-direction:column}
   .cal-slots-list{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:20px}
   .cal-slot-group{display:flex;flex-direction:column;gap:9px}
@@ -464,7 +444,7 @@
   .cal-slot{border:1px solid var(--hair);background:#fff;border-radius:9px;padding:13px 4px;font-family:var(--mono);font-size:.82rem;color:var(--ink);cursor:pointer;text-align:center;transition:background .14s,border-color .14s,color .14s}
   .cal-slot:hover{border-color:var(--accent);color:var(--accent)}
   .cal-slot.sel{background:var(--accent);border-color:var(--accent);color:#fff}
-  /* Mini-Formular (nach Slot-Wahl): Attendee-Daten im WERIXO-Stil */
+  
   .cal-form-date{font-family:var(--mono);font-size:.82rem;letter-spacing:.03em;color:var(--ink);text-transform:uppercase;margin:2px 0 16px}
   .cal-form-date b{color:var(--accent);font-weight:400}
   .cal-field{margin-bottom:12px}
@@ -481,7 +461,7 @@
   .cal-loc label:has(input:checked) .lt{color:var(--accent)}
   .cal-form-err{font-family:var(--mono);font-size:.74rem;letter-spacing:.02em;color:#C2410C;margin:0 0 12px;line-height:1.4}
   .cal-form-err:empty{display:none}
-  /* Bestätigung (nach erfolgreicher Buchung) */
+  
   .cal-done{text-align:center;padding:24px 8px}
   .cal-done .cd-ic{width:52px;height:52px;border-radius:50%;background:var(--accent-soft);display:grid;place-items:center;margin:0 auto 16px}
   .cal-done .cd-ic svg{width:26px;color:var(--accent)}
@@ -494,23 +474,23 @@
   .cal-cta-btn:hover:not(:disabled){background:#E8492A;transform:translateY(-2px) scale(1.02);box-shadow:0 1px 2px rgba(19,21,26,.10),0 16px 30px -14px rgba(19,21,26,.38)}
   .cal-cta-btn:disabled{background:#EDEBE4;color:var(--ink-3);box-shadow:none;cursor:default}
   .cal-note{margin:12px 4px 0;font-family:var(--mono);font-size:.78rem;letter-spacing:.03em;color:var(--ink-2);text-transform:uppercase;line-height:1.55;text-align:center}
-  .cal-note a{color:#C2410C;text-decoration:underline;text-underline-offset:2px}   /* Coral-Ink statt Cobalt-Link: kohärent in der Coral-Karte, AA rund 5:1 */
+  .cal-note a{color:#C2410C;text-decoration:underline;text-underline-offset:2px}   
 
-  /* baseline honesto */
+  
   .ft-base{border-top:1px solid var(--hair);display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:clamp(36px,4vw,52px) 0}
   .ft-col h3{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);margin:0 0 14px;font-weight:500}
   .ft-col a,.ft-col p{display:block;font-family:var(--body);font-size:.95rem;color:var(--ink-2);text-decoration:none;margin:0 0 8px;line-height:1.5;transition:color .15s}
   .ft-col a:hover{color:var(--accent)}
-  /* Touch-Targets ≥44px NUR auf Touch (Footer: Bericht-Zeilen, Kalender, Links). Desktop bleibt kompakt (Maus-Ziele). */
+  
   @media(pointer:coarse){
     .rrow{min-height:44px}
-    /* .cal-day NO recibe min-height: con aspect-ratio:1 forzaría 44px de ancho/celda → 7×44 no cabe en 375. Su tamaño natural (~43px) ya es táctil (mín. WCAG real 24px). */
+    
     .cal-nav button{width:44px;height:44px}
     .cal-back{display:inline-flex;align-items:center;min-height:44px}
     .cal-cta-btn{min-height:44px}
     .cal-slot{display:flex;align-items:center;justify-content:center;min-height:44px}
     .cal-field input{min-height:44px}
-    .ft-col a{min-height:44px;padding-block:11px;margin-bottom:0}  /* block (no flex): el texto largo envuelve y no ensancha la columna; padding da el área de 44px */
+    .ft-col a{min-height:44px;padding-block:11px;margin-bottom:0}  
   }
   .ft-bottom{border-top:1px solid var(--hair-soft);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:14px;padding:22px 0 44px;
     font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--ink-2);text-transform:uppercase}
@@ -524,22 +504,17 @@
   }
   @media(max-width:540px){ .ft-base{grid-template-columns:1fr} }
 
-  /* ══════ SEKTION 2 · „Der lebende Bericht" ══════
-     Der Nachweis als Objekt: der Monatsbericht als 3D-Dossier, das sich beim Scrollen zusammensetzt und „lebt".
-     Dunkle Bühne (Tonwechsel) zwischen hellem Bento und hellem Footer. Inhalt aus werixo-insight (Score, Maßnahmen,
-     externe Bedrohungslage = „WERIXO Threat Intelligence"), Beispiel/anonymisiert, anbieter-unsichtbar.
-     Drei Farben mit Funktion: Coral = Betrieb/Score, Cobalt = Threat Intelligence, Grün = OK. CSS-3D + GSAP, scroll-tied.
-     Desktop = pin + deterministischer progress; Mobile = ohne pin (kein iOS-Hijack), reveal beim Eintreten. */
+  
   .lbr{position:relative;background:#141110;color:#F4F1EA;overflow:hidden;
     --inv:#F4F1EA; --inv-2:rgba(244,241,234,.64); --inv-3:rgba(244,241,234,.34);
     --line:rgba(244,241,234,.12); --paper:#F7F4ED; --pink:#FF5A3C; --cobalt:#3B82F6; --cobalt-tx:#93C5FD; --ok:#22C55E;
-    /* Textura técnica sutil: malla blueprint (80px) + campo de puntos fino (26px), muy tenue. SIN glow/halo (José lo mató). */
+    
     background-image:
       radial-gradient(circle at 0 0,rgba(244,241,234,.18) 2px,transparent 2.4px),
       linear-gradient(rgba(244,241,234,.06) 1px,transparent 1px),
       linear-gradient(90deg,rgba(244,241,234,.06) 1px,transparent 1px);
     background-size:80px 80px,80px 80px,80px 80px}
-  /* Grano de película sutil sobre el negro (lo hace „material", no plano). Detrás del contenido (.cw z5), el documento lo tapa donde se asienta. */
+  
   .lbr::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.06;
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
   .lbr .cw{max-width:1200px}
@@ -553,14 +528,12 @@
   .lbr-grid{display:grid;grid-template-columns:1fr;gap:clamp(30px,5vw,60px);align-items:center}
   .lbr-rail{align-self:center}
 
-  /* Capítulos del informe (rail izquierda) que se activan en sincronía con cada acto */
+  
   .chapters{list-style:none;margin:0;padding:0;display:grid;gap:6px}
   .chap{display:flex;gap:16px;align-items:center;padding:14px 17px;border-radius:13px;border:1px solid transparent;opacity:.4;transition:opacity .4s,background .4s,border-color .4s}
   .chap.on{opacity:1;background:rgba(244,241,234,.045);border-color:var(--line)}
   .chap.done{opacity:.72}
-  /* Badge ("icono"): número en Departure Mono; contenedor con esquinas achaflanadas (chamfer) = estética Chakra Petch (técnica/HUD).
-     El borde achaflanado CIERRA porque se dibuja por capas: el elemento = color del borde (octágono), ::before = relleno interior
-     recortado 1.5px más adentro (octágono), dejando un anillo cerrado. Sin `border` (que el clip-path recortaría en los chaflanes). */
+  
   .chap-n{position:relative;isolation:isolate;flex:0 0 44px;width:44px;height:44px;display:grid;place-items:center;
     font-family:var(--mono);font-size:1.18rem;line-height:1;color:var(--inv-2);transition:color .4s,background .4s;background:var(--line);
     clip-path:polygon(8px 0,calc(100% - 8px) 0,100% 8px,100% calc(100% - 8px),calc(100% - 8px) 100%,8px 100%,0 calc(100% - 8px),0 8px)}
@@ -575,7 +548,7 @@
   .chap-t{display:block;font-family:var(--display);font-weight:600;font-size:1.12rem;letter-spacing:-.01em;margin:0 0 2px}
   .chap-d{display:block;font-family:var(--body);font-size:.92rem;color:var(--inv-2);margin:0;line-height:1.45}
 
-  /* Documento 3D: hoja frontal + dos hojas detrás (dossier) en perspectiva */
+  
   .lbr-doc-col{position:relative;perspective:1700px;perspective-origin:62% 42%}
   .dossier{position:relative;transform-style:preserve-3d;will-change:transform,opacity}
   .sheet-bg{position:absolute;inset:0;border-radius:6px;background:#E9E4D9;border:1px solid rgba(0,0,0,.05)}
@@ -589,7 +562,7 @@
   .sheet-top .st-h .d{width:.32em;height:.32em;background:var(--pink);margin-bottom:.14em}
   .sheet-top .st-m{font-family:var(--mono);font-size:.8rem;letter-spacing:.05em;color:rgba(19,21,26,.55);text-transform:uppercase;text-align:right;line-height:1.55}
 
-  /* Fila 1: dial de Score + mini-gráfica de Maßnahmen */
+  
   .m-row1{display:flex;gap:clamp(16px,2.4vw,28px);align-items:center;flex-wrap:wrap}
   .m-score{display:flex;align-items:center;gap:15px;flex:1;min-width:210px}
   .dial{position:relative;flex:none;width:92px;height:92px}
@@ -603,12 +576,12 @@
   .bars-wrap{flex:none;width:132px}
   .bars-wrap .bk{font-family:var(--mono);font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;color:rgba(19,21,26,.52);margin:0 0 8px}
   .bars{display:flex;align-items:flex-end;gap:7px;height:58px}
-  .bars .bar{flex:1;background:var(--pink);border-radius:2px 2px 0 0;height:0}   /* scope a .bars: si no, colisiona con <header class="bar"> y le mete height:0 */
-  /* Alturas por defecto (fallback sin JS / reduced-motion); el JS las sobreescribe inline */
+  .bars .bar{flex:1;background:var(--pink);border-radius:2px 2px 0 0;height:0}   
+  
   .bars .bar:nth-child(1){height:60%} .bars .bar:nth-child(2){height:40%}
   .bars .bar:nth-child(3){height:78%} .bars .bar:nth-child(4){height:52%}
 
-  /* Maßnahmen: filas con tick verde que entran una a una */
+  
   .m-mass{margin-top:18px}
   .mrow{display:flex;align-items:center;gap:11px;padding:9px 0;border-bottom:1px solid rgba(19,21,26,.07);font-size:.98rem;opacity:0;transform:translateX(-8px);transition:opacity .35s ease,transform .35s ease}
   .mrow.on{opacity:1;transform:none}
@@ -618,7 +591,7 @@
   .mrow .mk .tick svg{width:9px;height:9px;color:#fff}
   .mrow .mv{margin-left:auto;font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;color:rgba(19,21,26,.52)}
 
-  /* Threat Intelligence: panel oscuro (cobalt) que emerge desde detrás de la hoja = el diferenciador surgiendo */
+  
   .m-intel{margin-top:18px;border-radius:7px;background:#0F1422;color:#EAF0FB;padding:14px 16px;
     box-shadow:0 18px 40px -22px rgba(0,0,0,.55);opacity:0;transform:translateY(26px)}
   .mi-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:11px}
@@ -630,7 +603,7 @@
   .mi-rows div{font-family:var(--mono);font-size:.68rem;letter-spacing:.03em;text-transform:uppercase;color:rgba(234,240,251,.6)}
   .mi-rows div b{display:block;font-family:var(--body);font-size:.86rem;line-height:1.3;letter-spacing:0;text-transform:none;color:#EAF0FB;margin-top:5px;font-weight:500}
 
-  /* Sello final */
+  
   .seal{position:absolute;right:clamp(16px,2.4vw,30px);bottom:clamp(-10px,1vw,8px);width:92px;height:92px;border-radius:50%;
     border:2.5px solid var(--pink);color:var(--pink);display:grid;place-items:center;text-align:center;
     font-family:var(--mono);font-weight:700;font-size:.68rem;letter-spacing:.1em;line-height:1.25;text-transform:uppercase;
@@ -648,8 +621,7 @@
     .sheet-bg.s-b2{transform:translate(19px,-19px)}
     .seal{width:76px;height:76px;bottom:6px}
   }
-  /* MOBILE-FIRST: Dossier passt in den Viewport. Stapel-Blätter NICHT nach rechts versetzen (sonst Querschnitt),
-     Kopf-Meta und Maßnahmen-Zeilen umbrechen statt abschneiden, Threat-Panel-Kopf umbrechen. */
+  
   @media(max-width:600px){
     .lbr-doc-col,.dossier,.sheet{max-width:100%}
     .sheet-bg.s-b1{transform:translate(0,-9px)}
@@ -667,9 +639,7 @@
     .m-intel{opacity:1;transform:none}
   }
 
-  /* ===== Sektion „Wie wir arbeiten / Der Wechsel" (José 2026-06-10): sticky-reveal + Fotos + WERIXO-Standard-Marken.
-     Alles unter .ww gescoped (keine Klassen-Kollision). Bilder = Platzhalter /_moodtmp/ bis Higgsfield/Recraft.
-     Sticky = CSS position:sticky (mobile-safe, kein GSAP-Pin). Reveal = natives animation-timeline:view() (Fallback: sichtbar). ===== */
+  
   .ww{--ww-cobalt:#1E3A8A;--ww-soft:#F5F4F0;--ww-tx:rgba(19,21,26,.74);--ww-tx2:rgba(19,21,26,.5);
     position:relative;background:var(--bg);padding:clamp(60px,9vh,120px) 0}
   @media (min-width:980px){
@@ -689,7 +659,7 @@
   .ww-right{display:flex;flex-direction:column;gap:clamp(20px,2.6vw,28px);margin-top:clamp(28px,4vh,36px)}
   .ww-cards{display:flex;flex-direction:column;gap:clamp(16px,2vw,22px)}
   .ww-card{position:relative;border-radius:16px;background:#0b1020;overflow:hidden;isolation:isolate;min-height:clamp(280px,42vh,400px);padding:clamp(22px,2.4vw,30px);display:flex;flex-direction:column;justify-content:flex-end}
-  /* Echte Higgsfield-Fotos (2026-06-15), natürliche Farbe statt Cobalt-Duotone → kohärent mit dem natürlichen Foto-Set (fbtest/pos/pf). Leichte Abdunklung für Text-Lesbarkeit. */
+  
   .ww-media{position:absolute;inset:0;z-index:-3;background-color:#0b1020;background-position:center;background-size:cover;background-repeat:no-repeat;filter:contrast(1.03) saturate(1.02) brightness(.9)}
   .ww-media.ww-m1{background-image:url('./_moodtmp/person.webp');background-position:center 30%}
   .ww-media.ww-m2{background-image:url('./_moodtmp/work.webp');background-position:center 42%}
@@ -700,8 +670,7 @@
   .ww-ch{font-family:var(--display);font-weight:700;font-size:clamp(1.25rem,1.7vw,1.5rem);line-height:1.16;letter-spacing:-.02em;color:#fff;margin:0 0 9px}
   .ww-cd{font-size:1rem;line-height:1.5;color:rgba(255,255,255,.85);margin:0;max-width:42ch}
 
-  /* Anti-Slop 2026-07-03: Lavendel-Soft-Tint (verbotenes Info-Banner-Muster) raus —
-     solides Cobalt (sektionsgebunden fuer .ww erlaubt) mit echter Tiefe statt Pastell-Verlauf. */
+  
   .ww-flow{position:relative;overflow:hidden;border-radius:18px;padding:clamp(26px,3vw,40px);
     background:var(--ww-cobalt);border:1px solid rgba(255,255,255,.1);
     box-shadow:0 1px 2px rgba(19,21,26,.06),0 28px 56px -26px rgba(30,58,138,.55)}
@@ -725,22 +694,18 @@
 
   @supports (animation-timeline: view()){
     @media (prefers-reduced-motion: no-preference){
-      /* reveal = movimiento de PROFUNDIDAD (emerge desde el fondo hacia delante). SIN fade de opacidad → sin "leche" blanca sobre la foto (José 2026-06-10). */
+      
       .ww-rv{animation:ww-depth linear both;animation-timeline:view();animation-range:entry 2% cover 42%}
       @keyframes ww-depth{from{transform:perspective(1100px) translateZ(-220px) translateY(26px)}to{transform:perspective(1100px) translateZ(0) translateY(0)}}
     }
   }
 
-  /* ===== PRÜFSTAND v6 (José 2026-06-14, referenzbasiert): Foto als breites Cinematic-Banner (21:9 desktop /
-     16:9 mobile) über die volle Breite — beide Personen sichtbar (kein Seiten-Crop mehr, der entstand, weil
-     das 16:9-Foto in eine hohe schmale Spalte gezwängt war). Darunter 4 Proof-Cards 2x2. Header oben, CTA unten.
-     Kein Pin, kein sticky. Coral + Ink + Weiß. Referenzen: Split-/Banner-Visual + Proof-Grid, Micro-Proof auf
-     einen Blick, klare CTA (Orbit Media Evidence, B2B-SaaS-Trust-Patterns). */
+  
   .pf{position:relative;background:var(--bg);color:var(--ink);
     padding:clamp(60px,9vh,112px) 0 clamp(56px,9vh,104px);border-top:1px solid var(--hair-soft)}
   .pf>.cw{max-width:var(--cw)}
 
-  /* Header */
+  
   .pf-head{max-width:720px;margin:0 0 clamp(28px,4vh,44px)}
   .pf-kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);margin:0 0 18px}
   .pf-kick .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
@@ -748,13 +713,13 @@
   .pf-h .ac{color:var(--accent)}
   .pf-sub{font-family:var(--body);font-size:clamp(1rem,1.2vw,1.1rem);line-height:1.58;color:rgba(26,22,18,.72);margin:0;max-width:60ch}
 
-  /* Cinematic-Banner — beide Personen, kein Seiten-Crop (Aspect >= 16:9) */
+  
   .pf-banner{position:relative;border-radius:20px;overflow:hidden;margin:clamp(28px,4vh,44px) 0 clamp(20px,3vh,32px);
     aspect-ratio:21/9;
     box-shadow:0 1px 2px rgba(19,21,26,.04),0 30px 64px -34px rgba(19,21,26,.32),0 2px 8px rgba(19,21,26,.06)}
   @media(max-width:680px){ .pf-banner{aspect-ratio:16/9;border-radius:16px} }
   .pf-banner img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 34%;display:block}
-  /* sanfter Verlauf unten für Lesbarkeit der Caption */
+  
   .pf-banner::after{content:"";position:absolute;inset:auto 0 0 0;height:42%;
     background:linear-gradient(to top,rgba(15,17,21,.52),transparent);pointer-events:none}
   .pf-cap{position:absolute;left:clamp(18px,2.4vw,30px);bottom:clamp(16px,2.2vw,24px);z-index:2;
@@ -764,7 +729,7 @@
     font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;
     padding:5px 12px;border-radius:100px;pointer-events:none}
 
-  /* Proof-Cards 2x2 (1-spaltig mobile) */
+  
   .pf-rows{display:grid;grid-template-columns:1fr;gap:clamp(14px,1.6vw,18px)}
   @media(min-width:680px){ .pf-rows{grid-template-columns:1fr 1fr} }
   .pf-row{position:relative;display:flex;flex-direction:column;gap:10px;padding:clamp(22px,2.4vw,30px);
@@ -773,7 +738,7 @@
     transition:transform .26s cubic-bezier(.22,1,.36,1),box-shadow .26s cubic-bezier(.22,1,.36,1),border-color .2s}
   .pf-row::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--accent);
     transform:scaleX(0);transform-origin:left;transition:transform .32s cubic-bezier(.22,1,.36,1)}
-  /* Anti-Slop 2026-07-03: 01-04 entfernt (vier Belege, keine Reihenfolge) — der Dokumentname traegt die Zeile. */
+  
   .pf-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
   .pf-badge{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.7rem;
     letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
@@ -795,23 +760,20 @@
   }
   .pf-row:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 
-  /* CTA + Microcopy */
+  
   .pf-cta{margin-top:clamp(28px,4vh,44px);display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
   .pf-cta .pf-note{font-family:var(--mono);font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);margin:0}
 
-  /* ═══════════ DURCHLEUCHTUNG · Standortbestimmung (eigenes Konzept, KEIN Home-Bauteil) ═══════════
-     Sicherheit = das Verborgene sichtbar machen. Cinematic-Hero (echtes Higgsfield-Foto) → Scan-Durchleuchtung,
-     die die IT Schicht für Schicht freilegt → Befund (eigener heller Brief) → Cinematic-Close. Eigener Namespace .dl-.
-     Helle Seite (Shell-kohärent) mit dunklen Cinematic-Akten. Markup = Endzustand (ohne JS lesbar). Assets: Higgsfield + Recraft. */
+  
   .dl{background:var(--bg);color:var(--ink)}
   .dl .cw{max-width:var(--cw)}
   .dl-kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.14em;text-transform:uppercase;margin:0 0 18px}
   .dl-kick .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
 
-  /* ── HERO · Cinematic dunkel, full-bleed Foto ── */
+  
   .dl-hero{position:relative;min-height:clamp(620px,94svh,1000px);display:flex;align-items:flex-end;overflow:hidden;background:#0B0D11;isolation:isolate}
   .dl-hero-img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 42%}
-  /* Verlauf: oben dunkel (heller Glas-Header schwebt darüber), unten dunkler für Textlesbarkeit */
+  
   .dl-hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
     background:linear-gradient(180deg,rgba(11,13,17,.72) 0%,rgba(11,13,17,.28) 34%,rgba(11,13,17,.46) 62%,rgba(8,10,14,.92) 100%)}
   .dl-hero .cw{padding-top:clamp(140px,20vh,220px);padding-bottom:clamp(48px,8vh,96px);position:relative;z-index:1}
@@ -829,7 +791,7 @@
   .dl-chips{display:flex;flex-wrap:wrap;gap:9px}
   .dl-chip{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:#F7F5EE;background:rgba(244,242,235,.08);border:1px solid rgba(244,242,235,.18);border-radius:100px;padding:8px 14px;backdrop-filter:blur(6px)}
   .dl-chip svg{width:14px;height:14px;color:var(--accent);flex:none}
-  /* Scan-Linie am unteren Rand: dünner coral Lichtstrahl, der quer läuft (das „Durchleuchten") */
+  
   .dl-hero-beam{position:absolute;left:0;right:0;bottom:0;height:2px;z-index:1;
     background:linear-gradient(90deg,transparent,var(--accent),transparent);background-size:42% 100%;background-repeat:no-repeat;
     box-shadow:0 0 18px 1px rgba(255,90,60,.5);animation:dl-sweep 5.5s ease-in-out infinite}
@@ -837,7 +799,7 @@
   @media(prefers-reduced-motion:reduce){.dl-hero-beam{animation:none;background-position:50% 0}}
   @media(max-width:900px){ .dl-hero{align-items:flex-end} .dl-hero-img{object-position:center 38%} }
 
-  /* ── DURCHLEUCHTUNG · dunkle Bühne, Scan legt die IT Schicht für Schicht frei (Signaturmoment) ── */
+  
   .dl-scan{position:relative;background:#0E1014;color:#F4F2EB;overflow:hidden;
     background-image:linear-gradient(rgba(244,242,235,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(244,242,235,.045) 1px,transparent 1px);background-size:64px 64px}
   .dl-scan-inner{position:relative;z-index:1;padding:clamp(70px,11vh,140px) 0;display:grid;grid-template-columns:1fr;gap:clamp(34px,5vw,64px)}
@@ -848,13 +810,13 @@
   .dl-scan-h .ac{color:var(--accent)}
   .dl-scan-p{font-family:var(--body);font-size:clamp(1rem,1.2vw,1.1rem);line-height:1.55;color:rgba(244,242,235,.72);margin:0 0 18px;max-width:42ch}
   .dl-scan-note{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:rgba(244,242,235,.4);margin:0}
-  /* Schichtstapel + wandernder coral Scan-Strahl */
+  
   .dl-stack{position:relative;display:flex;flex-direction:column;gap:10px}
   .dl-beam{position:absolute;left:-6px;right:-6px;top:0;height:2px;z-index:4;background:var(--accent);box-shadow:0 0 24px 3px rgba(255,90,60,.6);pointer-events:none;opacity:0;will-change:transform}
   .dl-layer{position:relative;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:14px;
     padding:clamp(16px,2vw,22px) clamp(16px,2vw,22px);border-radius:12px;border:1px solid var(--dl-l,rgba(244,242,235,.1));
     background:rgba(244,242,235,.03);transition:background .5s ease,border-color .5s ease,filter .5s ease,opacity .5s ease}
-  /* Default = scharf/sichtbar (ohne JS voll lesbar). Erst .armed (JS) dämpft die noch nicht durchleuchteten Schichten. */
+  
   .dl-stack.armed .dl-layer:not(.seen){filter:blur(3px);opacity:.4}
   .dl-layer.seen{background:rgba(244,242,235,.055);border-color:rgba(244,242,235,.16)}
   .dl-layer-ix{font-family:var(--mono);font-size:.78rem;color:rgba(244,242,235,.45);width:2.4ch}
@@ -872,7 +834,7 @@
     .dl-layer-st{grid-column:2;justify-self:start}
   }
 
-  /* ── ABLAUF · 3 Akte, eigene Spur (kein Home-Flow) ── */
+  
   .dl-steps-sec{position:relative;background:var(--bg);padding:clamp(64px,10vh,120px) 0;border-bottom:1px solid var(--hair-soft)}
   .dl-steps-head{max-width:600px;margin:0 0 clamp(36px,5vh,56px)}
   .dl-steps-head .dl-kick{color:var(--ink-2)}
@@ -889,7 +851,7 @@
   .dl-step-h{font-family:var(--display);font-weight:700;font-size:clamp(1.12rem,1.5vw,1.34rem);letter-spacing:-.015em;color:var(--ink);margin:0 0 7px}
   .dl-step-d{font-family:var(--body);font-size:clamp(.96rem,1.05vw,1.04rem);line-height:1.55;color:rgba(19,21,26,.72);margin:0;max-width:40ch}
 
-  /* ── BEFUND · der Brief, den Sie bekommen (hell, eigenständig, NICHT das dunkle Home-Dossier) ── */
+  
   .dl-befund{position:relative;background:#ECEFF4;padding:clamp(64px,10vh,124px) 0;border-top:1px solid var(--hair-soft)}
   .dl-befund-grid{display:grid;grid-template-columns:1fr;gap:clamp(32px,5vw,60px);align-items:center}
   @media(min-width:940px){ .dl-befund-grid{grid-template-columns:.8fr 1fr;gap:clamp(44px,5vw,80px)} }
@@ -897,7 +859,7 @@
   .dl-befund-rail .dl-kick{color:var(--ink-2)}
   .dl-befund-p{font-family:var(--body);font-size:clamp(1rem,1.2vw,1.12rem);line-height:1.6;color:rgba(19,21,26,.74);margin:14px 0 0;max-width:46ch}
   .dl-befund-note{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:rgba(19,21,26,.72);margin:16px 0 0}
-  /* Brief */
+  
   .dl-letter{position:relative;background:#fff;border-radius:6px;padding:clamp(26px,3vw,40px);
     box-shadow:0 1px 2px rgba(19,21,26,.05),0 40px 80px -36px rgba(19,21,26,.4);
     border-top:4px solid var(--accent)}
@@ -926,7 +888,7 @@
   .dl-letter-sig{font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);text-align:right}
   .dl-letter-sig b{display:block;font-family:var(--display);font-weight:700;font-size:.92rem;letter-spacing:-.01em;color:var(--ink);text-transform:none;margin-bottom:2px}
 
-  /* ── CLOSE · Cinematic dunkel + CTA ── */
+  
   .dl-close{position:relative;min-height:clamp(440px,62vh,640px);display:flex;align-items:center;overflow:hidden;background:#0B0D11;isolation:isolate}
   .dl-close-img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 46%;filter:saturate(1.02)}
   .dl-close::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(95deg,rgba(8,10,14,.9) 0%,rgba(8,10,14,.66) 48%,rgba(8,10,14,.32) 100%)}
@@ -939,7 +901,7 @@
   .dl-close-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
   .dl-close-note{font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;text-transform:uppercase;color:rgba(244,242,235,.55);margin:0}
 
-  /* Reveal nativo para heads/steps/letter (sin JS, fallback visible) */
+  
   @supports (animation-timeline: view()){
     @media (prefers-reduced-motion: no-preference){
       .dl-rv{animation:dl-rise linear both;animation-timeline:view();animation-range:entry 3% cover 22%}
@@ -948,16 +910,13 @@
   }
 
 
-  /* ═══════════ DIE LEITUNG · IT-Support (eigenes Konzept, KEIN Home-Bauteil) ═══════════
-     Support = ein offener Kanal statt anonymer Hotline. Signaturmoment: eine einzige Coral-Signallinie,
-     die sich beim Scrollen zeichnet (SVG path-draw, scrub) und die Stationen einer Meldung freischaltet.
-     Andere Motion-Mechanik als der Scan-Beam von .dl-. Eigener Namespace .it-. Reuse: .cw, .btn. */
+  
   .it-page{background:var(--bg);color:var(--ink)}
   .it-page .cw{max-width:var(--cw)}
   .it-kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.14em;text-transform:uppercase;margin:0 0 18px}
   .it-kick .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
 
-  /* ── Hero: dunkle Cinematic-Bühne, eigene Komposition ── */
+  
   .it-hero{position:relative;min-height:clamp(600px,92svh,960px);display:flex;align-items:flex-end;overflow:hidden;background:#0B0D11;isolation:isolate}
   .it-hero-img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 40%}
   .it-hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
@@ -977,7 +936,7 @@
   .it-chips{display:flex;flex-wrap:wrap;gap:9px}
   .it-chip{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:#F7F5EE;background:rgba(244,242,235,.08);border:1px solid rgba(244,242,235,.18);border-radius:100px;padding:8px 14px;backdrop-filter:blur(6px)}
   .it-chip svg{width:14px;height:14px;color:var(--accent);flex:none}
-  /* Content-Icon-System (Lottie [data-ico]): coral, lazy. Größen via Klasse, kein Inline-Style (CSP). */
+  
   .ico{display:inline-grid;place-items:center;flex:none;line-height:0}
   .ico svg{width:100%!important;height:100%!important;display:block}
   .ico-xs{width:14px;height:14px}
@@ -988,7 +947,7 @@
   .it-chip .ico{width:14px;height:14px}
   @media(max-width:900px){ .it-hero-img{object-position:center 36%} }
 
-  /* ── DIE LEITUNG · Signaturmoment: Coral-Linie zeichnet sich, Stationen leuchten auf ── */
+  
   .it-weg{position:relative;background:var(--bg);padding:clamp(72px,11vh,148px) 0}
   .it-weg-head{max-width:600px;margin:0 0 clamp(40px,6vh,72px)}
   .it-weg-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.4vw,2.8rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 16px}
@@ -1002,7 +961,7 @@
     filter:drop-shadow(0 0 8px rgba(255,90,60,.45));stroke-dasharray:1;stroke-dashoffset:0}
   .it-stop{position:relative;padding:0 0 clamp(34px,5vh,58px)}
   .it-stop:last-child{padding-bottom:0}
-  /* Endzustand (ohne JS / reduced-motion) = alle Stationen leuchten, Linie gezeichnet. JS „armt" und dimmt erst. */
+  
   .it-dot{position:absolute;left:clamp(-39px,-5.6vw,-65px);top:5px;width:18px;height:18px;border-radius:50%;
     background:var(--bg);border:2px solid var(--accent);box-shadow:0 0 0 5px var(--accent-soft);transition:border-color .3s,background .3s,box-shadow .3s}
   .it-dot::after{content:"";position:absolute;inset:4px;border-radius:50%;background:var(--accent);transition:background .3s}
@@ -1015,7 +974,7 @@
   .it-track.armed .it-stop:not(.lit) .it-stop-n{color:rgba(19,21,26,.74)}
   .it-track.armed .it-stop:not(.lit) .it-stop-t,.it-track.armed .it-stop:not(.lit) .it-stop-d{opacity:.5}
 
-  /* ── Scope: was enthalten ist, was rund um die Uhr läuft, wo die Grenze liegt (Scope-Honesty) ── */
+  
   .it-scope{background:#13151A;color:#F4F2EB;padding:clamp(72px,11vh,148px) 0}
   .it-scope .it-kick{color:rgba(244,242,235,.6)}
   .it-scope-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.2vw,2.7rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 clamp(36px,5vh,60px);color:#F7F5EE;max-width:18ch}
@@ -1037,7 +996,7 @@
   .it-addon{font-family:var(--body);font-size:.98rem;line-height:1.6;color:rgba(244,242,235,.66);margin:clamp(28px,4vh,44px) 0 0;max-width:64ch}
   .it-addon b{color:#F7F5EE;font-weight:700}
 
-  /* ── Reaktion, kein Versprechen ins Blaue ── */
+  
   .it-reakt{background:var(--bg);padding:clamp(72px,11vh,148px) 0}
   .it-reakt-head{max-width:600px;margin:0 0 clamp(36px,5vh,56px)}
   .it-reakt-h{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,3vw,2.6rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 16px}
@@ -1051,7 +1010,7 @@
   .it-rk h3{font-family:var(--display);font-weight:700;font-size:1.12rem;line-height:1.25;margin:0 0 10px;color:var(--ink)}
   .it-rk p{font-family:var(--body);font-size:.98rem;line-height:1.55;color:var(--ink-2);margin:0}
 
-  /* ── Cinematic Close ── */
+  
   .it-close{position:relative;overflow:hidden;background:#0B0D11;isolation:isolate;padding:clamp(80px,14vh,180px) 0}
   .it-close-img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 45%;opacity:.5}
   .it-close::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(8,10,14,.7),rgba(8,10,14,.92))}
@@ -1062,7 +1021,7 @@
   .it-close-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
   .it-close-note{font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;text-transform:uppercase;color:rgba(244,242,235,.55);margin:0}
 
-  /* Reveal nativo (sin JS, fallback visible) für it- heads */
+  
   @supports (animation-timeline: view()){
     @media (prefers-reduced-motion: no-preference){
       .it-rv{animation:dl-rise linear both;animation-timeline:view();animation-range:entry 3% cover 22%}
@@ -1070,16 +1029,13 @@
   }
 
 
-  /* ═══════════ ZUGÄNGE UNTER KONTROLLE · Microsoft 365 (eigenes Konzept, KEIN Home/dl/it-Bauteil) ═══════════
-     Kern von M365-Verwaltung = Identitäten und Zugriffe im Griff. Signaturmoment: eine Zugriffs-Matrix
-     (Rollen × Dienste), die sich beim Scrollen Zelle für Zelle „absichert" (Kaskade, ScrollTrigger), mit MFA-Schloss
-     und mitlaufendem Zähler. Andere Mechanik als Scan (.dl-) und Linie (.it-). Namespace .ms-. Reuse: .cw, .btn. */
+  
   .ms-page{background:var(--bg);color:var(--ink)}
   .ms-page .cw{max-width:var(--cw)}
   .ms-kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.14em;text-transform:uppercase;margin:0 0 18px}
   .ms-kick .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
 
-  /* ── Hero: helles, sachliches Foto (gpt-image, MS-Authenticator) + Scrim, Text unten links ── */
+  
   .ms-hero{position:relative;min-height:clamp(600px,90svh,940px);display:flex;align-items:flex-end;overflow:hidden;background:#0B0D11;isolation:isolate}
   .ms-hero-img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 48%}
   .ms-hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
@@ -1102,7 +1058,7 @@
   .ms-chip{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:#F7F5EE;background:rgba(244,242,235,.08);border:1px solid rgba(244,242,235,.18);border-radius:100px;padding:8px 14px;backdrop-filter:blur(6px)}
   .ms-chip svg{width:14px;height:14px;color:var(--accent);flex:none}
 
-  /* ── SIGNATUR: Zugriffs-Matrix, sichert sich beim Scrollen ab ── */
+  
   .ms-matrix{background:var(--bg);padding:clamp(72px,11vh,148px) 0}
   .ms-matrix-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px;margin:0 0 clamp(30px,4.5vh,52px)}
   .ms-matrix-head .l{max-width:560px}
@@ -1133,13 +1089,13 @@
   .ms-cell.lim .lvl::before{background:rgba(19,21,26,.32)}
   .ms-cell.none{color:rgba(19,21,26,.72)}
   .ms-cell.none .lvl::before{background:transparent;border:1px solid rgba(19,21,26,.2)}
-  /* Endzustand (ohne JS / reduced-motion) = abgesichert: Schloss coral. JS „armt" und sichert beim Scrollen ab. */
+  
   .ms-cell:not(.none) .lock{color:var(--accent)}
   .ms-grid.armed .ms-cell:not(.secured):not(.none) .lock{color:rgba(19,21,26,.22)}
   .ms-cell.secured .lock{color:var(--accent);transform:scale(1.04)}
   .ms-cell.none .lock{display:none}
 
-  /* ── Kommt jemand, geht jemand (On-/Offboarding) ── */
+  
   .ms-flow{background:#13151A;color:#F4F2EB;padding:clamp(72px,11vh,148px) 0}
   .ms-flow .ms-kick{color:rgba(244,242,235,.6)}
   .ms-flow-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.2vw,2.7rem);line-height:1.1;letter-spacing:-.025em;color:#F7F5EE;margin:0 0 clamp(34px,5vh,56px);max-width:20ch}
@@ -1156,7 +1112,7 @@
   .ms-steps li::before{content:"";position:absolute;left:0;top:.45em;width:13px;height:13px;border-radius:50%;border:2px solid var(--accent)}
   .ms-panel.out .ms-steps li::before{border-color:rgba(244,242,235,.4)}
 
-  /* ── Scope (Verwaltung / Grenze) · 2-Spalten-Listen, andere Form als it-scope ── */
+  
   .ms-scope{background:var(--bg);padding:clamp(72px,11vh,148px) 0}
   .ms-scope-h{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,3vw,2.6rem);line-height:1.1;letter-spacing:-.025em;margin:0 0 clamp(32px,4.5vh,52px);max-width:20ch}
   .ms-scope-h .ac{color:var(--accent)}
@@ -1174,7 +1130,7 @@
   .ms-sc li b{font-weight:700}
   .ms-sc li .note{display:block;font-family:var(--mono);font-size:.74rem;letter-spacing:.02em;color:rgba(19,21,26,.72);margin-top:3px}
 
-  /* ── Close · dunkel, sachlich, ohne Foto (Variation zu den anderen Seiten) ── */
+  
   .ms-close{position:relative;overflow:hidden;background:#0E1014;isolation:isolate;padding:clamp(80px,13vh,170px) 0}
   .ms-close::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.5;
     background:radial-gradient(120% 90% at 88% 18%,rgba(255,90,60,.16),transparent 60%)}
@@ -1185,7 +1141,7 @@
   .ms-close-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
   .ms-close-note{font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;text-transform:uppercase;color:rgba(244,242,235,.55);margin:0}
 
-  /* Klickbare On-/Offboarding-Karten (Goldene Regel: jede Card klickbar) + Pfeil-Affordance */
+  
   a.ms-panel{position:relative;display:block;text-decoration:none;color:inherit;cursor:pointer;
     transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s,background .35s,box-shadow .35s}
   .ms-panel-go{position:absolute;top:clamp(18px,2.4vw,26px);right:clamp(18px,2.4vw,26px);width:22px;height:22px;color:rgba(244,242,235,.38);transition:transform .35s,color .35s}
@@ -1198,7 +1154,7 @@
     .ms-grid:hover{box-shadow:0 1px 2px rgba(19,21,26,.04),0 26px 60px -28px rgba(19,21,26,.3)}
   }
 
-  /* Mobile: Matrix bricht in Rollen-Blöcke um (kein Querscroll) */
+  
   @media(max-width:720px){
     .ms-grid{grid-template-columns:1fr;gap:0;padding:6px}
     .ms-ghead{display:none}
@@ -1209,14 +1165,14 @@
     .ms-cell::before{content:attr(data-svc);font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);margin-right:auto}
   }
 
-  /* Reveal nativo (sin JS) für ms- heads */
+  
   @supports (animation-timeline: view()){
     @media (prefers-reduced-motion: no-preference){
       .ms-rv{animation:dl-rise linear both;animation-timeline:view();animation-range:entry 3% cover 22%}
     }
   }
 
-  /* Klickbare Karten auf den Service-Seiten (Goldene Regel) — it-support + standortbestimmung */
+  
   a.it-card, a.it-rk, a.dl-step{position:relative;text-decoration:none;color:inherit;cursor:pointer;
     transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s,box-shadow .35s,background .35s}
   a.it-card{display:flex}
@@ -1234,19 +1190,13 @@
   }
 
 
-  /* ═══════════ DAS FENSTER · Endpoint & Patch (eigenes Konzept, KEIN Home/dl/it/ms-Bauteil) ═══════════
-     Kern von Patch-Management = das Zeitfenster zwischen „Lücke bekannt" und „Gerät aktuell" kurz halten und
-     Updates kontrolliert in Stufen ausrollen, statt alles auf einmal. Signaturmoment: ein horizontales
-     Zeitfenster, das sich beim Scrollen schließt (Breiten-Kontraktion, wandernde „Jetzt"-Marke, Prüfpunkte
-     leuchten auf). Andere Mechanik als Scan (.dl-), Linie (.it-) und Matrix (.ms-). Namespace .ep-. Reuse: .cw, .btn.
-     Farbsemantik: Coral = Marke/Interaktion; gedämpftes Ocker = anfälliges Fenster (kein Schrei-Rot, kein Severity-Tag);
-     Grün NUR als Status „aktuell/erledigt" (schmaler Indikator, keine Pastell-Fläche). */
+  
   .ep-page{background:var(--bg);color:var(--ink)}
   .ep-page .cw{max-width:var(--cw)}
   .ep-kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.14em;text-transform:uppercase;margin:0 0 18px}
   .ep-kick .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
 
-  /* ── Hero ── */
+  
   .ep-hero{position:relative;min-height:clamp(580px,90svh,940px);display:flex;align-items:flex-end;overflow:hidden;background:#0B0D11;isolation:isolate}
   .ep-hero-img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 42%}
   .ep-hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
@@ -1268,7 +1218,7 @@
   .ep-chip svg{width:14px;height:14px;color:var(--accent);flex:none}
   @media(max-width:900px){ .ep-hero-img{object-position:center 38%} }
 
-  /* ── DAS FENSTER · Signaturmoment: Zeitfenster schließt sich beim Scrollen ── */
+  
   .ep-fenster{position:relative;background:var(--bg);padding:clamp(72px,11vh,148px) 0}
   .ep-fenster-head{max-width:660px;margin:0 0 clamp(44px,6vh,72px)}
   .ep-fenster-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.4vw,2.8rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 16px}
@@ -1301,7 +1251,7 @@
   .ep-status{font-family:var(--mono);font-size:.76rem;letter-spacing:.05em;text-transform:uppercase;margin:22px 0 0;color:var(--ink-2)}
   .ep-status b{color:#16A34A;font-weight:400}
 
-  /* ── ROLLOUT-RINGE · kontrolliert in Stufen, nicht alles auf einmal ── */
+  
   .ep-ringe{background:#13151A;color:#F4F2EB;padding:clamp(72px,11vh,148px) 0}
   .ep-ringe .ep-kick{color:rgba(244,242,235,.6)}
   .ep-ringe-head{max-width:640px;margin:0 0 clamp(36px,5vh,56px)}
@@ -1329,7 +1279,7 @@
     a.ep-ring:hover .card-go{transform:translateX(4px) translateY(-4px);color:var(--accent)}
   }
 
-  /* ── SCOPE · was automatisch läuft, wo die Grenze liegt (Scope-Honesty) ── */
+  
   .ep-scope{background:var(--bg);padding:clamp(72px,11vh,148px) 0;border-top:1px solid var(--hair-soft)}
   .ep-scope-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.2vw,2.7rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 clamp(36px,5vh,56px);max-width:20ch}
   .ep-scope-h .ac{color:var(--accent)}
@@ -1349,7 +1299,7 @@
   .ep-sc .note{display:block;font-family:var(--mono);font-size:.74rem;line-height:1.5;letter-spacing:.02em;color:var(--ink-3);margin-top:6px}
   .ep-scope-foot{font-family:var(--body);font-size:.97rem;line-height:1.6;color:var(--ink-2);margin:clamp(28px,4vh,40px) 0 0;max-width:66ch}
 
-  /* ── Cinematic Close ── */
+  
   .ep-close{position:relative;overflow:hidden;background:#0B0D11;isolation:isolate;padding:clamp(80px,14vh,180px) 0}
   .ep-close-img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 45%;opacity:.42}
   .ep-close::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(8,10,14,.72),rgba(8,10,14,.93))}
@@ -1362,19 +1312,13 @@
 
 
 
-  /* ═══════════ DIE RUHIGE WACHE · Endpoint-Schutz (eigenes Konzept + eigene STRUKTUR, bewusst anders als dl/it/ms/ep) ═══════════
-     Guter Endpoint-Schutz ist meistens still: fortlaufend beobachten, Abweichungen erkennen, eindämmen, melden.
-     Wert liegt in der Ruhe, nicht im Alarm-Theater. Strukturbruch zu den anderen Seiten: KEIN dunkler Foto-Hero
-     (stattdessen editorialer, heller Typo-Hero mit Status-Karte), Signatur = radiale „Wache", die ruhig atmet und
-     beim Scrollen EINE Abweichung erkennt und eindämmt (keine roten Severity-Tags), Reaktion als EIN verbundenes
-     Band statt Kartenreihe, heller „wieder ruhig"-Abschluss statt Foto-Close. Namespace .es-. Reuse: .cw, .btn.
-     Coral = Marke/Treffer; KEIN Schrei-Rot, kein KRITISCH-Badge (verboten). */
+  
   .es-page{background:var(--bg);color:var(--ink)}
   .es-page .cw{max-width:var(--cw)}
   .es-kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.14em;text-transform:uppercase;margin:0 0 20px;color:var(--ink-2)}
   .es-kick .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
 
-  /* ── Hero: editorial, hell, OHNE Foto (Strukturbruch) ── */
+  
   .es-hero{position:relative;padding:clamp(140px,21vh,250px) 0 clamp(56px,9vh,104px)}
   .es-hero-grid{display:grid;grid-template-columns:1fr;gap:clamp(34px,5vw,64px);align-items:center}
   @media(min-width:920px){ .es-hero-grid{grid-template-columns:1.12fr .88fr} }
@@ -1385,7 +1329,7 @@
   @media(min-width:560px){.es-hero-ctas{flex-direction:row;align-items:center}}
   .es-hero-ctas .btn{justify-content:center}
   @media(min-width:560px){.es-hero-ctas .btn{justify-content:flex-start}}
-  /* Status-Karte (editorial, Mono, Crop-Marks = WERIXO-Sprache; KEIN Fake-Dashboard, kein Severity) */
+  
   .es-status-card{position:relative;background:#fff;border:1px solid var(--hair);border-radius:18px;padding:clamp(26px,3vw,34px);
     box-shadow:0 1px 2px rgba(19,21,26,.04),0 22px 50px -30px rgba(19,21,26,.28)}
   .es-crop{position:absolute;width:13px;height:13px;border-color:var(--accent);opacity:.85}
@@ -1402,7 +1346,7 @@
   @keyframes es-breathe{0%,100%{transform:scale(.7);opacity:.55}50%{transform:scale(1.15);opacity:0}}
   .es-sc-note{font-family:var(--body);font-size:.92rem;line-height:1.5;color:var(--ink-2);margin:16px 0 0;border-top:1px solid var(--hair-soft);padding-top:14px}
 
-  /* ── Signatur: DIE WACHE · radial, atmet ruhig, erkennt + dämmt beim Scrollen EINE Abweichung ein ── */
+  
   .es-wache{position:relative;background:var(--bg);padding:clamp(72px,11vh,148px) 0;border-top:1px solid var(--hair-soft)}
   .es-wache-head{max-width:620px;margin:0 auto clamp(34px,5vh,56px);text-align:center}
   .es-wache-head .es-kick{justify-content:center}
@@ -1431,7 +1375,7 @@
   .es-phase .pd{width:7px;height:7px;border-radius:50%;background:rgba(19,21,26,.2);flex:none;transition:background .35s}
   .es-phase.on{color:var(--accent-ink)} .es-phase.on .pd{background:var(--accent)}
 
-  /* ── Reaktion: EIN verbundenes Band (kein Kartenraster) ── */
+  
   .es-flow{background:#13151A;color:#F4F2EB;padding:clamp(64px,10vh,128px) 0}
   .es-flow .es-kick{color:rgba(244,242,235,.6)}
   .es-flow-head{max-width:620px;margin:0 0 clamp(40px,6vh,64px)}
@@ -1440,7 +1384,7 @@
   .es-flow-p{font-family:var(--body);font-size:clamp(1rem,1.2vw,1.12rem);line-height:1.55;color:rgba(244,242,235,.74);margin:0;max-width:52ch}
   .es-band{position:relative;display:grid;grid-template-columns:1fr;gap:0}
   @media(min-width:880px){ .es-band{grid-template-columns:repeat(3,1fr)} }
-  /* verbindende Linie (horizontal Desktop, vertikal Mobile) */
+  
   .es-band::before{content:"";position:absolute;background:linear-gradient(90deg,rgba(255,90,60,.15),rgba(255,90,60,.6),rgba(255,90,60,.15));
     left:14%;right:14%;top:46px;height:2px}
   @media(max-width:879px){ .es-band::before{left:31px;right:auto;top:10%;bottom:10%;width:2px;height:auto;background:linear-gradient(180deg,rgba(255,90,60,.15),rgba(255,90,60,.6),rgba(255,90,60,.15))} }
@@ -1462,7 +1406,7 @@
   .es-flow-note{font-family:var(--body);font-size:.96rem;line-height:1.6;color:rgba(244,242,235,.62);margin:clamp(28px,4vh,42px) 0 0;max-width:62ch}
   .es-flow-note b{color:#F7F5EE;font-weight:700}
 
-  /* ── Foto-Band: „nichts Auffälliges, und das ist der Plan" (reale KMU, neue Position) ── */
+  
   .es-still{position:relative;min-height:clamp(360px,52vh,560px);display:flex;align-items:flex-end;overflow:hidden;background:#0B0D11;isolation:isolate}
   .es-still img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:center 38%}
   .es-still::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(8,10,14,.18) 0%,rgba(8,10,14,.5) 58%,rgba(8,10,14,.82) 100%)}
@@ -1470,7 +1414,7 @@
   .es-still-cap{font-family:var(--display);font-weight:700;font-size:clamp(1.35rem,2.6vw,2.1rem);line-height:1.18;letter-spacing:-.02em;color:#F7F5EE;margin:0;max-width:22ch;text-wrap:balance}
   .es-still-sub{font-family:var(--mono);font-size:.76rem;letter-spacing:.05em;text-transform:uppercase;color:rgba(244,242,235,.62);margin:14px 0 0}
 
-  /* ── Scope: asymmetrisch (7/5), nicht das 3-Spalten-Dunkel ── */
+  
   .es-scope{background:var(--bg);padding:clamp(72px,11vh,148px) 0}
   .es-scope-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.2vw,2.7rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 clamp(34px,5vh,52px);max-width:20ch}
   .es-scope-h .ac{color:var(--accent)}
@@ -1491,7 +1435,7 @@
   .es-scope-foot{font-family:var(--body);font-size:.97rem;line-height:1.6;color:var(--ink-2);margin:clamp(28px,4vh,40px) 0 0;max-width:66ch}
   .es-scope-foot b{color:var(--ink);font-weight:700}
 
-  /* ── Close: hell, „wieder ruhig" (kein Foto-Close) ── */
+  
   .es-close{position:relative;background:var(--bg);padding:clamp(80px,13vh,170px) 0;border-top:1px solid var(--hair-soft);text-align:center;overflow:hidden}
   .es-close-line{position:absolute;left:0;right:0;top:50%;height:2px;background:linear-gradient(90deg,transparent,rgba(255,90,60,.28) 40%,rgba(255,90,60,.28) 60%,transparent);transform:translateY(-50%)}
   .es-close-dot{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:13px;height:13px;border-radius:50%;background:var(--accent)}
@@ -1506,21 +1450,15 @@
 
 
 
-  /* ═══════════ DER RÜCKWEG · Backup (eigenes Konzept + eigene STRUKTUR, anders als dl/it/ms/ep/es) ═══════════
-     Wahrheit: Kopieren ist der leichte Teil. Wert entsteht erst beim geprüften Zurückholen. „Jeder sichert,
-     die Frage ist, ob es zurückkommt." Strukturbruch: DUNKLER editorialer Hero (kein Foto, kein heller Hero wie .es),
-     Signatur = Rekonstruktion (Daten-Kacheln füllen sich beim Scrollen zurück + Rückweg-Bogen vom letzten
-     geprüften Punkt), 3-2-1 als großes typografisches Zahlen-Panel auf warmer Fläche (keine Kartenreihe),
-     heller Restore-Test/Scope, dunkler „der Rückweg ist fertig"-Abschluss. Namespace .bk-. Reuse: .cw, .btn.
-     Grün NUR als Status „geprüft/zurück"; Coral = Marke/Rückweg; kein Schrei-Rot, kein Severity-Badge. */
+  
   .bk-page{background:var(--bg);color:var(--ink)}
   .bk-page .cw{max-width:var(--cw)}
   .bk-kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.14em;text-transform:uppercase;margin:0 0 20px}
   .bk-kick .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
 
-  /* ── Hero: dunkel, editorial, OHNE Foto, mit „Rückweg"-Pfad ── */
+  
   .bk-hero{position:relative;background:#0F1115;color:#F4F2EB;overflow:hidden;isolation:isolate;padding:clamp(150px,22vh,260px) 0 clamp(64px,10vh,120px)}
-  /* Animierter Hintergrund (paper-shaders Dithering, José 2026-06-18). Liegt hinter dem Inhalt (.bk-hero-grid z-index:1). Scrim sichert AA des Textes. */
+  
   .bk-hero-bg{position:absolute;inset:0;z-index:0;opacity:.85}
   .bk-hero-bg canvas{display:block;width:100%;height:100%}
   .bk-hero::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
@@ -1537,10 +1475,10 @@
   @media(min-width:560px){.bk-hero-ctas .btn{justify-content:flex-start}}
   .bk-hero-ctas .btn.ghost{color:#F7F5EE;border-color:rgba(244,242,235,.5)}
   .bk-hero-ctas .btn.ghost:hover{background:#F7F5EE;color:var(--ink)}
-  /* Rückweg-Pfad-Grafik (SVG, zeichnet sich) */
+  
   .bk-path{position:relative;width:100%;max-width:480px;margin:0 auto;aspect-ratio:5/4}
   .bk-path svg{width:100%;height:100%;display:block;overflow:visible}
-  /* Animated Beam (Port Magic UI → Vanilla, José 2026-06-18): Lichtstrahl-Gradient entlang des Pfads. Hinweg Kobalt, Rückweg coral. */
+  
   .bk-beam-base{stroke:rgba(244,242,235,.16);stroke-width:2;stroke-linecap:round}
   .bk-beam{stroke-width:2.5;stroke-linecap:round}
   .bk-path-node{fill:#0F1115;stroke:rgba(244,242,235,.45);stroke-width:2}
@@ -1552,11 +1490,9 @@
   .bk-lbl-back{fill:rgba(255,90,60,.85);font-size:10px}
   .bk-lbl-geprueft{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;fill:var(--accent);opacity:0}
 
-  /* ── [ENTFERNT 2026-06-19, Wunsch José] „Der Rückweg"-Signatur (Kacheln + Zeitstrahl + handgezeichneter
-     SVG-Bogen) komplett gelöscht. Wird NEU gebaut aus einer echten Komponente/Referenz, kein freihändiges
-     SVG. Bis dahin keine .bk-rw/.bk-stage/.bk-tiles/.bk-timeline-Styles. ── */
+  
 
-  /* ── 3-2-1 · großes typografisches Zahlen-Panel auf warmer Fläche (keine Kartenreihe) ── */
+  
   .bk-321{background-color:#fff;background-image:radial-gradient(rgba(19,21,26,.055) 1px,transparent 1.5px);background-size:24px 24px;padding:clamp(64px,10vh,128px) 0;border-top:1px solid var(--wx-canvas-edge,#C8C2AE);border-bottom:1px solid var(--wx-canvas-edge,#C8C2AE)}
   .bk-321-head{max-width:620px;margin:0 0 clamp(34px,5vh,52px)}
   .bk-321-h{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,3vw,2.5rem);line-height:1.1;letter-spacing:-.025em;margin:0 0 14px}
@@ -1571,11 +1507,11 @@
   .bk-num h3{font-family:var(--display);font-weight:700;font-size:1.14rem;line-height:1.25;margin:0;color:var(--ink)}
   .bk-num p{font-family:var(--body);font-size:.97rem;line-height:1.55;color:rgba(19,21,26,.76);margin:0}
   .bk-num.off .n{color:var(--accent-ink)} .bk-num.off{border-top-color:var(--accent)}
-  /* Technisches Daten-Tag pro Spalte (Departure Mono), macht die 3-2-1-Regel konkret statt nur Zahl+Text. */
+  
   .bk-tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:rgba(19,21,26,.5);margin-top:2px}
   .bk-num.off .bk-tag{color:var(--accent-ink)}
 
-  /* ── Restore-Test + Scope (heller, eigener Aufbau: ein breites Panel + Grenz-Inset) ── */
+  
   .bk-test{background:var(--bg);padding:clamp(72px,11vh,148px) 0}
   .bk-test-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.2vw,2.7rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 clamp(34px,5vh,52px);max-width:22ch}
   .bk-test-h .ac{color:var(--accent)}
@@ -1597,7 +1533,7 @@
   .bk-test-foot{font-family:var(--body);font-size:.97rem;line-height:1.6;color:var(--ink-2);margin:clamp(28px,4vh,40px) 0 0;max-width:66ch}
   .bk-test-foot b{color:var(--ink);font-weight:700}
 
-  /* ── Close: dunkel, „der Rückweg ist gesichert" (anders als .es heller Close) ── */
+  
   .bk-close{position:relative;background:#0F1115;color:#F4F2EB;padding:clamp(80px,13vh,170px) 0;overflow:hidden;isolation:isolate}
   .bk-close-inner{max-width:640px;position:relative;z-index:1}
   .bk-close-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.4vw,3rem);line-height:1.1;letter-spacing:-.025em;color:#F7F5EE;margin:0 0 18px;text-wrap:balance}
@@ -1608,27 +1544,20 @@
 
 
 
-  /* ═══════════ SCHATTEN ANS LICHT · Sichere KI-Nutzung (eigenes Konzept + eigene STRUKTUR, anders als dl/it/ms/ep/es/bk) ═══════════
-     Wahrheit: Mitarbeitende nutzen KI längst, im Schatten und ohne Regeln (Schatten-KI). Aufgabe: ans Licht holen,
-     mit klaren Regeln, Kompetenz (EU-AI-Act Art. 4, seit 02.02.2025) und sicherem Zugang. KEINE KI-Agentur,
-     keine Konformitätsgarantie (nur Readiness Light, Art. 28 Eigenpflicht). Strukturbruch: lebendiger neuronaler
-     Hintergrund (tsParticles, lazy nur hier), mehrere Ebenen pro Sektion, Bento-Raster, Schatten→Licht-Reveal.
-     PALETTEN-TEST (José 2026-06-17): additive kühle Tiefdunkel-Fläche --ki-bg #0A0E16 (keine neue Akzentfarbe),
-     Cobalt stärker als „Intelligenz"-Ton neben Coral. Kein Mesh-Gradient, kein Glassmorphism (verboten).
-     Namespace .ki-. Reuse: .cw, .btn. */
-  .ki-page{--ki-bg:var(--wx-abyss);--ki-bg2:var(--wx-abyss-2);background:var(--ki-bg);color:#EDEFF4}  /* Tiefdunkel-Fläche jetzt aus kanonischem Token --wx-abyss (José 2026-06-18) */
+  
+  .ki-page{--ki-bg:var(--wx-abyss);--ki-bg2:var(--wx-abyss-2);background:var(--ki-bg);color:#EDEFF4}  
   .ki-page .cw{max-width:var(--cw)}
   .ki-kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.14em;text-transform:uppercase;margin:0 0 20px;color:rgba(237,239,244,.66)}
   .ki-kick .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none;box-shadow:0 0 0 4px rgba(255,90,60,.18)}
 
-  /* lebendiger neuronaler Hintergrund (tsParticles-Canvas) + Punkt-Raster-Ebene */
+  
   .ki-net{position:absolute;inset:0;z-index:0;pointer-events:none}
   .ki-net canvas{display:block}
   .ki-grid-ov{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.5;
     background-image:radial-gradient(rgba(237,239,244,.06) 1px,transparent 1px);background-size:26px 26px;
     -webkit-mask-image:radial-gradient(ellipse at 50% 40%,#000 35%,transparent 78%);mask-image:radial-gradient(ellipse at 50% 40%,#000 35%,transparent 78%)}
 
-  /* ── Hero: mehrschichtig, lebendig ── */
+  
   .ki-hero{position:relative;overflow:hidden;isolation:isolate;padding:clamp(150px,22vh,260px) 0 clamp(64px,10vh,120px);background:radial-gradient(ellipse at 70% 0%,var(--ki-bg2),var(--ki-bg) 62%)}
   .ki-hero-inner{position:relative;z-index:2;max-width:840px}
   .ki-live{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#93C5FD;border:1px solid rgba(147,197,253,.28);border-radius:100px;padding:7px 14px;margin:0 0 22px;background:rgba(59,130,246,.07)}
@@ -1646,7 +1575,7 @@
   .ki-hero-ctas .btn.ghost{color:#F7F9FE;border-color:rgba(237,239,244,.45)}
   .ki-hero-ctas .btn.ghost:hover{background:#F7F9FE;color:var(--ki-bg)}
 
-  /* ── Schatten → Licht: chaotische Token-Ebene ordnet sich beim Scrollen ── */
+  
   .ki-schatten{position:relative;overflow:hidden;isolation:isolate;background:var(--ki-bg);padding:clamp(72px,11vh,148px) 0;border-top:1px solid rgba(237,239,244,.07)}
   .ki-tokens{position:absolute;inset:0;z-index:0;pointer-events:none}
   .ki-token{position:absolute;font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:rgba(237,239,244,.16);white-space:nowrap;will-change:transform,opacity}
@@ -1659,7 +1588,7 @@
   .ki-sh-stat span{font-family:var(--mono);font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;color:rgba(237,239,244,.62);display:inline-flex;align-items:center;gap:9px}
   .ki-sh-stat span::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
 
-  /* ── Bento: das Angebot, mehrere Ebenen, klickbare Zellen ── */
+  
   .ki-bento-sec{position:relative;background:linear-gradient(180deg,var(--ki-bg),var(--ki-bg2));padding:clamp(72px,11vh,148px) 0}
   .ki-bento-head{max-width:640px;margin:0 0 clamp(36px,5vh,56px)}
   .ki-bh{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.2vw,2.7rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 16px;color:#F7F9FE}
@@ -1671,7 +1600,7 @@
     border:1px solid rgba(237,239,244,.12);border-radius:18px;padding:clamp(22px,2.4vw,30px);overflow:hidden;isolation:isolate;
     background:linear-gradient(180deg,rgba(237,239,244,.05),rgba(237,239,244,.02));
     transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s,box-shadow .35s}
-  /* Halo/Glut entfernt (kein oranger Halo, José 2026-06-22) */
+  
   @media(min-width:760px){
     .ki-cell.flag{grid-column:span 4;grid-row:span 2}
     .ki-cell.cr{grid-column:span 2}
@@ -1689,7 +1618,7 @@
     a.ki-cell:hover .ki-cell-foot::after{transform:translateX(3px);color:var(--accent)}
   }
 
-  /* ── EU-AI-Act Art. 4: rechtlicher Anker ── */
+  
   .ki-art4{position:relative;background:var(--ki-bg2);padding:clamp(64px,10vh,128px) 0;border-top:1px solid rgba(237,239,244,.07);border-bottom:1px solid rgba(237,239,244,.07)}
   .ki-art4-grid{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,56px);align-items:center}
   @media(min-width:880px){ .ki-art4-grid{grid-template-columns:auto 1fr} }
@@ -1704,7 +1633,7 @@
   .ki-art4-p{font-family:var(--body);font-size:clamp(1rem,1.2vw,1.12rem);line-height:1.55;color:rgba(237,239,244,.8);margin:0 0 10px;max-width:60ch}
   .ki-art4-note{font-family:var(--mono);font-size:.74rem;line-height:1.5;letter-spacing:.02em;color:rgba(237,239,244,.5);margin:12px 0 0}
 
-  /* ── Scope (claims-safe), heller Kontrast-Block für Lesbarkeit ── */
+  
   .ki-scope{background:var(--bg);color:var(--ink);padding:clamp(72px,11vh,148px) 0}
   .ki-scope-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.2vw,2.7rem);line-height:1.08;letter-spacing:-.025em;margin:0 0 clamp(34px,5vh,52px);max-width:22ch}
   .ki-scope-h .ac{color:var(--accent)}
@@ -1724,7 +1653,7 @@
   .ki-scope-foot{font-family:var(--body);font-size:.97rem;line-height:1.6;color:var(--ink-2);margin:clamp(28px,4vh,40px) 0 0;max-width:66ch}
   .ki-scope-foot b{color:var(--ink);font-weight:700}
 
-  /* ── Close: dunkel, lebendig ── */
+  
   .ki-close{position:relative;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at 30% 100%,var(--ki-bg2),var(--ki-bg) 60%);padding:clamp(80px,13vh,170px) 0}
   .ki-close-inner{position:relative;z-index:2;max-width:640px}
   .ki-close-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.4vw,3rem);line-height:1.1;letter-spacing:-.025em;color:#F7F9FE;margin:0 0 18px;text-wrap:balance}
@@ -1732,24 +1661,21 @@
   .ki-close-p{font-family:var(--body);font-size:clamp(1rem,1.2vw,1.14rem);line-height:1.55;color:rgba(237,239,244,.8);margin:0 0 26px;max-width:52ch}
   .ki-close-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
   .ki-close-note{font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;text-transform:uppercase;color:rgba(237,239,244,.5);margin:0}
-  /* Coral-Ring (WebGL) als Schluss-Visual; Maske hält den Text links lesbar */
+  
   .ki-close>.ki-ring-cv,.ki-close>.ki-ring-fallback{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none;border:0;-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.22) 40%,#000 70%);mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.22) 40%,#000 70%)}
   .ki-close>.ki-ring-fallback{object-fit:cover;object-position:78% 50%;opacity:.9}
   .ki-close>.ki-ring-cv{opacity:0;transition:opacity .9s ease}
   .ki-close.ki-ring-on>.ki-ring-cv{opacity:.96}
   .ki-close.ki-ring-on>.ki-ring-fallback{opacity:0}
   @media (max-width:768px){
-    /* Mobil: Ring laeuft auch hier (WebGL), Maske daempft oben den Titelbereich → Text lesbar */
+    
     .ki-close>.ki-ring-cv,.ki-close>.ki-ring-fallback{object-fit:cover;object-position:50% 50%;-webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,.12) 0%,rgba(0,0,0,.5) 46%,#000 82%);mask-image:linear-gradient(to bottom,rgba(0,0,0,.12) 0%,rgba(0,0,0,.5) 46%,#000 82%)}
     .ki-close.ki-ring-on>.ki-ring-cv{opacity:.55}
     .ki-close>.ki-ring-fallback{opacity:.5}
   }
 
 
-  /* ===== FAQ ===== "Aktenregister": Kopf oben (full-width), eine breite Spalte — bricht bewusst mit dem
-     zweispaltigen Sticky-Layout von .lbr/.ww. Geschlossen = Registerzeile (Mono-Nr. + Frage + Chevron, Haarlinie).
-     Offen = die Karte hebt sich (warme Fläche + Schichtschatten), die Antwort gleitet ein. <details> nativ,
-     JS-frei; Höhe via grid-template-rows; Reveal = animation-timeline:view(). */
+  
   .faq{--faq-surface:#F6F5F1;position:relative;background-color:var(--bg);color:var(--ink);padding:clamp(44px,8vh,104px) 0 clamp(56px,10vh,128px);border-top:1px solid var(--hair-soft)}
   .faq-wrap{max-width:920px;margin:0 auto}
   .faq-head{margin:0 0 clamp(28px,4.4vh,46px)}
@@ -1763,13 +1689,13 @@
   .faq-item{position:relative;background:transparent;border-top:1px solid var(--hair);
     transition:background .28s ease,box-shadow .38s cubic-bezier(.16,1,.3,1),border-color .2s ease,border-radius .3s ease,translate .3s cubic-bezier(.16,1,.3,1)}
   .faq-list>.faq-item:last-child{border-bottom:1px solid var(--hair)}
-  /* offen = gehobene Karte: gerade Registerzeile wird zur abgerundeten, gehobenen Karte (warme Fläche + Schichtschatten) */
+  
   .faq-item[open]{background:var(--faq-surface);border-top-color:transparent;border-radius:16px;
     box-shadow:0 1px 0 rgba(19,21,26,.03), 0 2px 8px -4px rgba(19,21,26,.10), 0 28px 52px -34px rgba(19,21,26,.46)}
   .faq-item[open]+.faq-item{border-top-color:transparent}
   .faq-list>.faq-item[open]:last-child{border-bottom-color:transparent}
 
-  /* Anti-Slop 2026-07-03: 01-08 Index entfernt (FAQ hat keine Reihenfolge) — Frage traegt die Zeile allein. */
+  
   .faq-q{display:grid;grid-template-columns:1fr 34px;align-items:start;gap:clamp(12px,2vw,20px);
     padding:clamp(18px,2.5vw,26px) clamp(14px,2vw,24px);cursor:pointer;list-style:none;
     font-family:var(--display);font-weight:600;font-size:clamp(1.06rem,2vw,1.38rem);line-height:1.28;letter-spacing:-.015em;color:var(--ink)}
@@ -1794,9 +1720,7 @@
   .faq-foot a{color:var(--accent-ink);font-weight:600;text-decoration:none;white-space:nowrap}
   .faq-foot a:hover{text-decoration:underline;text-underline-offset:3px}
 
-  /* Hover (nur pointer:fine): die Registerzeile "hebt ab" als Vorschau auf den offenen Zustand —
-     warme Fläche + Schatten + leichter Lift, ABER kein Auto-Open. translate/scale sind eigene Properties
-     und kollidieren nicht mit dem transform des Scroll-Reveals. */
+  
   @media (hover:hover) and (pointer:fine){
     .faq-item:not([open]):hover{background:var(--faq-surface);border-top-color:transparent;border-radius:14px;translate:0 -2px;
       box-shadow:0 1px 0 rgba(19,21,26,.03), 0 16px 32px -22px rgba(19,21,26,.42)}
@@ -1818,9 +1742,7 @@
     }
   }
 
-  /* ═══════════ MONATSBERICHT · Dokument als Protagonist, nüchtern mit Kraft
-     Hero: Dot-Grid + Cobalt-Halo. Geführte Lektüre auf dunklem Cobalt-Grund (#0E1320), Papier leuchtet,
-     große Kennzahl je Seite. Grenzen wieder hell. Farbanker = Cobalt des Berichts. */
+  
   .mb{--mb-cobalt:#1E3A8A;--mb-ink-dark:#0E1320;background:var(--bg);color:var(--ink)}
   .mb-net{position:absolute;inset:0;z-index:1;pointer-events:none}
   .mb-net canvas{display:block}
@@ -1837,7 +1759,7 @@
   .mb-note{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:rgba(19,21,26,.55);margin:0}
   .mb-note-inv{color:rgba(244,242,235,.5)}
 
-  /* Hero: Dot-Grid + Halo */
+  
   .mb-hero{position:relative;overflow:hidden;padding:clamp(120px,17vh,180px) 0 clamp(44px,6vh,72px)}
   .mb-hero::before{content:"";position:absolute;inset:0;z-index:0;background-image:radial-gradient(rgba(19,21,26,.06) 1px,transparent 1.4px);background-size:24px 24px;-webkit-mask-image:radial-gradient(120% 90% at 70% 30%,#000,transparent 75%);mask-image:radial-gradient(120% 90% at 70% 30%,#000,transparent 75%);pointer-events:none}
   .mb-hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1fr;gap:clamp(34px,6vw,60px);align-items:center}
@@ -1854,11 +1776,11 @@
   @media(hover:hover) and (pointer:fine){.mb-doc-frame:hover{transform:translateY(-5px);box-shadow:0 30px 70px -24px rgba(30,58,138,.62)}}
   .mb-doc-cap{position:relative;z-index:1;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(19,21,26,.55);margin:12px 0 0;text-align:center}
 
-  /* Warum */
+  
   .mb-why{padding:0 0 clamp(40px,6vh,72px)}
   .mb-why-p{font-size:clamp(1.05rem,1.3vw,1.2rem);color:var(--ink);max-width:60ch}
 
-  /* Geführte Lektüre — dunkler Cobalt-Grund */
+  
   .mb-read{position:relative;background:var(--mb-ink-dark);color:#F4F2EB;padding:clamp(56px,8vh,96px) 0}
   .mb-read::before{content:"";position:absolute;inset:0;z-index:0;background-image:radial-gradient(rgba(147,197,253,.06) 1px,transparent 1.4px);background-size:26px 26px;pointer-events:none;opacity:.7}
   .mb-read>.cw{position:relative;z-index:2}
@@ -1876,7 +1798,7 @@
   .mb-fig{margin:0}
   .mb-fig img{width:100%;height:auto;display:block;border:1px solid rgba(244,242,235,.14)}
 
-  /* Desktop + JS: geführter Modus (Seite links sticky, leuchtet) */
+  
   @media(min-width:900px){
     .mb-read-grid.is-guided{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,5vw,80px);align-items:start}
     .is-guided .mb-read-media{display:block;position:sticky;top:92px;align-self:start;height:min(78vh,700px)}
@@ -1895,7 +1817,7 @@
   .mb-open a{font-family:var(--body);font-size:1.02rem;font-weight:600;color:var(--mb-cobalt);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;display:inline-flex;align-items:baseline;gap:10px}
   .mb-open-meta{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(244,242,235,.45);text-decoration:none}
 
-  /* Grenzen — wieder hell */
+  
   .mb-limits{padding:clamp(56px,8vh,96px) 0}
   .mb-list{margin:8px 0 0;padding:0}
   .mb-row{display:grid;grid-template-columns:1fr;gap:4px;padding:18px 0;border-top:1px solid var(--hair)}
@@ -1905,21 +1827,21 @@
   .mb-row-d{font-family:var(--body);font-size:1rem;line-height:1.6;color:rgba(19,21,26,.80);margin:0}
   .mb-hero-ctas .arr{transition:transform .2s}
 
-  /* ── Warum WERIXO (.wy-) ──────────────────────────────────────────────── */
+  
   .wy-page{--wy-dark:radial-gradient(135% 95% at 50% -8%,#241f17,#15110b 46%,#0b0805)}
   .wy-eyebrow{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:var(--eyebrow);letter-spacing:.12em;text-transform:uppercase;color:rgba(26,22,18,.55);margin-bottom:20px}
   .wy-eyebrow-inv{color:rgba(244,242,235,.5)}
   .wy-dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
-  /* Hero */
+  
   .wy-hero{padding:clamp(120px,20vh,200px) 0 clamp(80px,12vh,140px);background:var(--wy-dark);color:var(--inv,#F4F2EB)}
   .wy-hero .wy-eyebrow{color:rgba(244,242,235,.62)}
   .wy-hero-h1{font-family:var(--display);font-weight:700;font-size:clamp(2.6rem,6.4vw,4.8rem);line-height:1.02;letter-spacing:-.025em;color:#F4F2EB;max-width:16ch;margin:0}
   .wy-hero-h1 .c,.wy-p-text h2 .c,.wy-nv h2 .c,.wy-cta h2 .c{color:var(--accent)}
   .wy-hero-sub{font-family:var(--body);font-size:clamp(1.08rem,1.7vw,1.28rem);line-height:1.6;color:rgba(244,242,235,.68);max-width:52ch;margin:clamp(22px,3vh,32px) 0 0}
-  /* ── Prinzipien ──────────────────────────────────────────────────────── */
+  
   .wy-principle{padding:clamp(56px,9vh,108px) 0;background:#fff}
   .wy-principle.wy-dark{background:var(--wy-dark);color:#F4F2EB}
-  /* Kopf: Lottie-Icon (Akzent) + Kicker */
+  
   .wy-khead{display:flex;align-items:center;gap:14px;margin-bottom:18px}
   .wy-khead-center{justify-content:center}
   .wy-ico{width:clamp(52px,7vw,68px);height:clamp(52px,7vw,68px);flex:none;cursor:pointer}
@@ -1936,26 +1858,26 @@
   .wy-beleg:hover{border-color:var(--accent)}
   .wy-beleg-dark{color:#FF9178;border-color:rgba(255,122,94,.35)}
   @media(max-width:899px){.wy-beleg{min-height:44px;align-items:flex-end}}
-  /* Split-Layout (01,02,04): Text | Beleg */
+  
   .wy-split .wy-prin{display:grid;gap:clamp(28px,5vw,64px);align-items:center;grid-template-columns:1fr}
   @media(min-width:900px){
     .wy-split .wy-prin{grid-template-columns:1fr 1fr}
     .wy-split .wy-prin.rev .wy-art{order:-1}
   }
-  /* 01 — Service-Fakten-Karte */
+  
   .wy-facts{background:linear-gradient(180deg,#fff,#fbfaf7);border:1px solid var(--wx-canvas-edge,#C8C2AE);border-radius:4px;padding:clamp(22px,3vw,30px);box-shadow:0 1px 0 rgba(26,22,18,.04),0 18px 40px -28px rgba(26,22,18,.42)}
   .wy-facts-cap{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(26,22,18,.42);margin-bottom:8px}
   .wy-facts-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
   .wy-facts-list li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:14px 0;border-top:1px solid rgba(26,22,18,.1)}
   .wy-fk{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(26,22,18,.5)}
   .wy-fv{font-family:var(--display);font-weight:600;font-size:1.02rem;color:var(--ink)}
-  /* 02 — Dossier-Preview (Musterbericht) */
+  
   .wy-dossier{position:relative;padding:6px 0;display:flex;justify-content:center}
   .wy-dossier img{display:block;width:76%;max-width:340px;height:auto;border-radius:3px;background:#fff}
   .wy-dossier-front{position:relative;z-index:2;box-shadow:0 30px 60px -20px rgba(0,0,0,.6),0 8px 20px -10px rgba(0,0,0,.5);outline:1px solid rgba(255,255,255,.08)}
   .wy-dossier-back{position:absolute;top:6px;left:50%;width:72%;transform:translateX(-64%) rotate(-5deg);transform-origin:bottom center;z-index:1;opacity:.82;box-shadow:0 20px 40px -22px rgba(0,0,0,.7)}
   .wy-dossier-tag{position:absolute;right:8%;bottom:18px;z-index:3;font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(244,242,235,.74);background:rgba(10,8,5,.62);border:1px solid rgba(244,242,235,.16);padding:5px 9px;border-radius:3px;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
-  /* Stack-Layout (03): Aussage oben, Checkliste unten */
+  
   .wy-stack .wy-p-text{max-width:none}
   .wy-checklist{list-style:none;margin:clamp(30px,4vh,44px) 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:12px}
   @media(min-width:620px){.wy-checklist{grid-template-columns:1fr 1fr}}
@@ -1965,7 +1887,7 @@
   .wy-cl-t{font-family:var(--display);font-weight:600;font-size:1.05rem;color:var(--ink)}
   .wy-cl-s{font-family:var(--body);font-size:.9rem;line-height:1.4;color:rgba(26,22,18,.6)}
   .wy-stack-beleg{margin-top:26px}
-  /* Scope-Gegenüberstellung (04) */
+  
   .wy-scope{display:grid;grid-template-columns:1fr;gap:14px}
   @media(min-width:520px){.wy-scope{grid-template-columns:1fr 1fr}}
   .wy-scope-col{padding:clamp(20px,2.6vw,26px);border-radius:4px;border:1px solid var(--wx-canvas-edge,#C8C2AE)}
@@ -1979,7 +1901,7 @@
   .wy-scope-in li::before{content:"\2713";position:absolute;left:0;top:0;color:var(--accent);font-weight:700}
   .wy-scope-out li{color:rgba(26,22,18,.55)}
   .wy-scope-out li::before{content:"\2013";position:absolute;left:0;top:0;color:rgba(26,22,18,.4)}
-  /* Band-Layout (05) */
+  
   .wy-band{text-align:center}
   .wy-band .wy-ico{filter:drop-shadow(0 10px 26px rgba(0,0,0,.5))}
   .wy-band-text{margin:0 auto}
@@ -1987,11 +1909,11 @@
   .wy-band-text p{margin-left:auto;margin-right:auto;max-width:54ch}
   .wy-local{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:clamp(26px,4vh,38px)}
   .wy-chip{font-family:var(--mono);font-size:.78rem;letter-spacing:.04em;color:#F4F2EB;background:rgba(244,242,235,.07);border:1px solid rgba(244,242,235,.18);border-radius:999px;padding:12px 20px}
-  /* Dunkle Schlusszone: ein durchgehender Verlauf über Banderole + Rahmen (keine Naht zwischen zwei Schwarz) */
+  
   .wy-darkzone{background:var(--wy-dark)}
   .wy-darkzone .wy-principle.wy-dark{background:transparent}
   .wy-darkzone .wy-nv{background:transparent}
-  /* ── Klarer Rahmen (positiver Rahmen) ─────────────────────────────────── */
+  
   .wy-nv{background:var(--wy-dark);color:#F4F2EB;padding:clamp(64px,10vh,124px) 0}
   .wy-nv h2{font-family:var(--display);font-weight:700;font-size:clamp(1.5rem,3vw,2.1rem);color:#F4F2EB;max-width:24ch;margin:0 0 14px}
   .wy-nv-lead{font-family:var(--body);font-size:1.05rem;line-height:1.6;color:rgba(244,242,235,.72);max-width:60ch;margin:0 0 clamp(30px,4vh,46px)}
@@ -2001,20 +1923,19 @@
   .wy-nv-item h3{font-family:var(--display);font-weight:600;font-size:1.16rem;color:#F4F2EB;margin:0 0 9px;padding-left:18px;position:relative}
   .wy-nv-item h3::before{content:"";position:absolute;left:0;top:.42em;width:8px;height:8px;border-radius:50%;background:var(--accent)}
   .wy-nv-item p{font-family:var(--body);font-size:.97rem;line-height:1.62;color:rgba(244,242,235,.74);margin:0}
-  /* CTA */
+  
   .wy-cta{background:#fff;border-top:1px solid var(--hair,rgba(19,21,26,.12));text-align:center;padding:clamp(64px,10vh,124px) 0}
   .wy-cta h2{font-family:var(--display);font-weight:700;font-size:clamp(1.7rem,3.4vw,2.5rem);color:#14110E;max-width:18ch;margin:0 auto}
   .wy-cta p{font-family:var(--body);font-size:1.05rem;color:rgba(26,22,18,.7);max-width:46ch;margin:16px auto 0}
   .wy-btn{display:inline-flex;align-items:center;gap:.6rem;margin-top:clamp(26px,4vh,38px);background:var(--accent);color:#fff;font-family:var(--mono);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:18px 34px;text-decoration:none}
   .wy-btn::after{content:"\2192"}
-  /* Nav plain link (no chevron) */
+  
   .nav-link--plain{gap:0}
   @media(prefers-reduced-motion:reduce){.wy-ico *{animation:none!important}}
 
-  /* ===== Leistungen-Übersicht „Drei Felder" (Hub-Seite, José 2026-06-24). Eigenes Konzept: editoriale 3 Bänder
-     (Betrieb/Schutz/Nachweis) statt Detailseiten-Hero+Rail. Mobile-first. Entrance via animation-timeline:view(). ===== */
+  
   .lst-page{--wy-dark:radial-gradient(135% 95% at 50% -8%,#241f17,#15110b 46%,#0b0805);background:var(--bg)}
-  /* HERO */
+  
   .lst-hero{padding:clamp(116px,17vh,184px) 0 clamp(40px,6vh,72px)}
   .lst-hero-inner{max-width:62rem}
   .lst-h1{font-family:var(--display);font-weight:800;letter-spacing:-.02em;line-height:1.04;font-size:clamp(2.1rem,6vw,4rem);color:var(--ink);margin:0 0 clamp(18px,2.5vh,26px)}
@@ -2024,7 +1945,7 @@
   @media(min-width:560px){.lst-hero-ctas{flex-direction:row;align-items:center}}
   .lst-hero-ctas .btn{justify-content:center}
   @media(min-width:560px){.lst-hero-ctas .btn{justify-content:flex-start}}
-  /* HERO-Index */
+  
   .lst-index{display:grid;grid-template-columns:1fr;gap:10px;margin-top:clamp(34px,5vh,52px)}
   @media(min-width:720px){.lst-index{grid-template-columns:repeat(3,1fr);gap:14px}}
   .lst-ix{display:flex;flex-direction:column;gap:5px;text-decoration:none;padding:18px 20px;border:1px solid var(--hair);border-radius:12px;background:#fff;box-shadow:0 1px 2px rgba(19,21,26,.04);transition:transform .2s,box-shadow .2s,border-color .2s}
@@ -2032,7 +1953,7 @@
   .lst-ix-n{font-family:var(--mono);font-size:.8rem;color:var(--accent-ink);letter-spacing:.06em}
   .lst-ix-t{font-family:var(--display);font-weight:700;font-size:1.16rem;color:var(--ink)}
   .lst-ix-d{font-family:var(--body);font-size:.94rem;color:var(--ink-3);line-height:1.4}
-  /* HERO-VARIANTE „COSMOS" (dunkel, lebendiges System) */
+  
   .lst-hero--cosmos{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(135% 95% at 50% -8%,#241f17,#15110b 46%,#0b0805)}
   .lst-cosmos{position:absolute;inset:0;width:100%;height:100%;z-index:0;display:none}
   .lst-hero--cosmos.lst-cosmos-on .lst-cosmos{display:block}
@@ -2052,14 +1973,14 @@
   .lst-hero--cosmos .lst-ix-t{color:#F4F2EB}
   .lst-hero--cosmos .lst-ix-d{color:rgba(244,242,235,.62)}
   @media(hover:hover) and (pointer:fine){.lst-hero--cosmos .lst-ix:hover{transform:translateY(-3px);border-color:rgba(255,90,60,.5);box-shadow:0 16px 34px -20px rgba(0,0,0,.6)}}
-  /* Status-Panel (Telemetrie-Motiv) */
+  
   .lst-hud{position:absolute;top:clamp(86px,12vh,118px);right:calc(max(0px,(100% - var(--cw)) / 2) + 24px);z-index:2;display:flex;flex-direction:column;gap:7px;padding:13px 15px;min-width:166px;border-radius:13px;background:rgba(244,242,235,.06);backdrop-filter:blur(11px);-webkit-backdrop-filter:blur(11px);border:1px solid rgba(244,242,235,.15);font-family:var(--mono);font-size:.72rem;letter-spacing:.02em;color:rgba(244,242,235,.66);box-shadow:0 20px 44px -28px rgba(0,0,0,.7)}
   .lst-hud-head{display:flex;align-items:center;gap:7px;color:rgba(244,242,235,.86);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;margin-bottom:2px}
   .lst-hud-dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 9px rgba(255,90,60,.7)}
   .lst-hud-row{display:flex;justify-content:space-between;gap:20px}
   .lst-hud-on{color:#22C55E;letter-spacing:.04em}
   @media(max-width:860px){.lst-hud{display:none}}
-  /* BÄNDER */
+  
   .lst-band{padding:clamp(46px,7vh,82px) 0;border-top:1px solid var(--hair-soft);position:relative}
   .lst-band-grid{display:grid;grid-template-columns:1fr;gap:clamp(26px,4vw,46px);align-items:start}
   @media(min-width:900px){.lst-band-grid{grid-template-columns:minmax(240px,.8fr) 1.7fr;gap:clamp(34px,4vw,64px)}}
@@ -2070,7 +1991,7 @@
   .lst-band-head .it-kick{color:var(--accent-ink)}
   .lst-band-h{font-family:var(--display);font-weight:800;letter-spacing:-.01em;font-size:clamp(1.9rem,4vw,2.8rem);color:var(--ink);margin:0 0 12px;position:relative;z-index:1}
   .lst-band-p{font-family:var(--body);font-size:1.02rem;line-height:1.6;color:var(--ink-2);max-width:42ch;margin:0;position:relative;z-index:1}
-  /* Rhythmus: Feld 02 auf kühler Neutralfläche (kein Crema, kein zweiter Akzent) + gespiegeltes Layout = Struktur variiert */
+  
   .lst-band-alt{background:#F2F2F3;border-top-color:var(--hair)}
   @media(min-width:900px){
     .lst-band-alt .lst-band-grid{grid-template-columns:1.7fr minmax(240px,.8fr)}
@@ -2078,7 +1999,7 @@
     .lst-band-alt .lst-cards{grid-column:1;grid-row:1}
     .lst-band-alt .lst-band-n{left:auto;right:-.05em}
   }
-  /* KARTEN */
+  
   .lst-cards{display:grid;grid-template-columns:1fr;gap:14px;position:relative;z-index:1;grid-auto-rows:1fr}
   @media(min-width:600px) and (max-width:899px){.lst-cards{grid-template-columns:1fr 1fr}}
   @media(min-width:1120px){.lst-cards{grid-template-columns:1fr 1fr}}
@@ -2092,7 +2013,7 @@
   .lst-card-d{font-family:var(--body);font-size:.96rem;line-height:1.5;color:var(--ink-2)}
   .lst-card .card-go{color:var(--ink-3)}
   @media(hover:hover) and (pointer:fine){.lst-card:hover .card-go{transform:translateX(4px) translateY(-4px);color:var(--accent)}}
-  /* WAS NICHT (dunkel, warm) */
+  
   .lst-nicht{background:var(--wy-dark);color:#F4F2EB;padding:clamp(52px,8vh,96px) 0;margin-top:clamp(20px,3vh,34px)}
   .lst-nicht-inner{display:grid;grid-template-columns:1fr;gap:clamp(26px,4vw,48px)}
   @media(min-width:860px){.lst-nicht-inner{grid-template-columns:1fr 1fr;align-items:start}}
@@ -2103,7 +2024,7 @@
   .lst-nicht-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
   .lst-nicht-list li{font-family:var(--body);font-size:1.02rem;line-height:1.5;color:rgba(244,242,235,.86);padding-left:30px;position:relative}
   .lst-nicht-list li::before{content:"";position:absolute;left:0;top:.5em;width:13px;height:2px;background:var(--accent)}
-  /* CLOSE */
+  
   .lst-close{background:#fff;border-top:1px solid var(--hair);padding:clamp(64px,10vh,118px) 0;text-align:center}
   .lst-close-inner{max-width:46rem;margin:0 auto}
   .lst-close-h{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,3.6vw,2.7rem);color:var(--ink);line-height:1.08;margin:0 0 16px}
@@ -2111,11 +2032,11 @@
   .lst-close-p{font-family:var(--body);font-size:1.06rem;line-height:1.6;color:var(--ink-2);max-width:48ch;margin:0 auto clamp(26px,4vh,36px)}
   .lst-close-ctas{display:flex;flex-direction:column;align-items:center;gap:14px}
   .lst-close-note{font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;color:var(--ink-3);text-transform:uppercase;margin:0}
-  /* Lottie-Chip: container ersetzt das statische SVG; svg-Fallback sichtbar ohne JS */
+  
   .lst-ic > svg{width:23px;height:23px}
   .lst-ic > svg:not(:only-child){display:none}
 
-  /* ===== Kontaktseite „Direkter Draht" (José 2026-06-24). Kanäle + Ablauf + Standort; Kalender folgt global im Footer. ===== */
+  
   .kt-page{--wy-dark:radial-gradient(135% 95% at 50% -8%,#241f17,#15110b 46%,#0b0805);background:var(--bg)}
   .kt-hero{padding:clamp(116px,17vh,184px) 0 clamp(34px,5vh,58px)}
   .kt-hero-inner{max-width:54rem}
@@ -2126,7 +2047,7 @@
   @media(min-width:560px){.kt-hero-ctas{flex-direction:row;align-items:center}}
   .kt-hero-ctas .btn{justify-content:center}
   @media(min-width:560px){.kt-hero-ctas .btn{justify-content:flex-start}}
-  /* KANÄLE */
+  
   .kt-kanaele{padding:clamp(40px,6vh,72px) 0}
   .kt-h2{font-family:var(--display);font-weight:800;letter-spacing:-.01em;font-size:clamp(1.7rem,3.4vw,2.5rem);color:var(--ink);margin:0 0 clamp(22px,3vh,32px)}
   .kt-grid{display:grid;grid-template-columns:1fr;gap:14px}
@@ -2135,7 +2056,7 @@
   @media(hover:hover) and (pointer:fine){.kt-card:hover{transform:translateY(-4px);border-color:rgba(255,90,60,.45);box-shadow:0 20px 40px -22px rgba(19,21,26,.4)}}
   .kt-ic{flex:none;width:48px;height:48px;display:grid;place-items:center;border-radius:12px;background:rgba(26,22,18,.06);color:var(--ink);transition:background .2s}
   .kt-ic svg{width:24px;height:24px}
-  /* Tinta neutra in Ruhe, Coral bei Karten-Hover (wie Mega-Menü; weniger Orange-Block, José 2026-06-25). Lottie malt stroke/fill als Attribut → CSS-Override. */
+  
   .kt-ic svg [stroke]:not([stroke="none"]){stroke:var(--ink)}
   .kt-ic svg [fill]:not([fill="none"]){fill:var(--ink)}
   @media(hover:hover) and (pointer:fine){
@@ -2148,7 +2069,7 @@
   .kt-card-d{font-family:var(--body);font-size:.98rem;line-height:1.5;color:var(--ink-2);overflow-wrap:anywhere}
   .kt-card .card-go{color:var(--ink-3)}
   @media(hover:hover) and (pointer:fine){.kt-card:hover .card-go{transform:translateX(4px) translateY(-4px);color:var(--accent)}}
-  /* NEXT (dunkel) */
+  
   .kt-next{background:var(--wy-dark);color:#F4F2EB;padding:clamp(54px,8vh,98px) 0;margin-top:clamp(16px,2vh,28px)}
   .kt-next .it-kick{color:rgba(244,242,235,.6)}
   .kt-next-head{max-width:60ch;margin:0 0 clamp(28px,4vh,44px)}
@@ -2162,12 +2083,12 @@
   .kt-step-n{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:50%;border:1.5px solid rgba(255,90,60,.5);background:rgba(255,90,60,.1);font-family:var(--mono);font-size:1rem;color:var(--accent)}
   .kt-step h3{font-family:var(--display);font-weight:700;font-size:1.18rem;color:#F4F2EB;margin:16px 0 8px}
   .kt-step p{font-family:var(--body);font-size:.98rem;line-height:1.58;color:rgba(244,242,235,.74);margin:0}
-  /* STANDORT */
+  
   .kt-standort{padding:clamp(48px,7vh,90px) 0}
   .kt-standort-grid{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,52px);align-items:center}
   @media(min-width:820px){.kt-standort-grid{grid-template-columns:1.3fr .9fr}}
   .kt-standort-p{font-family:var(--body);font-size:1.04rem;line-height:1.62;color:var(--ink-2);max-width:54ch;margin:0 0 clamp(22px,3vh,30px)}
-  /* Kontakt-Panel (kein flaches Label+Wert; private Daten = nur Impressum) */
+  
   .kt-contact{display:flex;flex-direction:column;gap:16px;margin-top:2px}
   .kt-status{display:flex;align-items:center;gap:9px;font-family:var(--mono);font-size:.86rem;letter-spacing:.02em;color:var(--ink-2);margin:0}
   .kt-status-dot{width:8px;height:8px;border-radius:50%;background:var(--wx-ok,#22C55E);box-shadow:0 0 0 4px rgba(34,197,94,.14);flex-shrink:0}
@@ -2181,15 +2102,14 @@
   .kt-pin{width:clamp(96px,20vw,150px);height:clamp(96px,20vw,150px);display:grid;place-items:center;color:var(--accent)}
   .kt-pin svg{width:78%;height:78%}
   .kt-pin-cap{font-family:var(--mono);font-size:.84rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:0}
-  /* CAL-HINT */
+  
   .kt-cal-hint{padding:0 0 clamp(10px,2vh,22px);text-align:center}
   .kt-cal-hint-p{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3);margin:0}
   .kt-arrow{width:16px;height:16px;border-right:2px solid var(--accent);border-bottom:2px solid var(--accent);display:inline-block;animation:kt-bob 1.8s ease-in-out infinite}
   @keyframes kt-bob{0%,100%{transform:rotate(45deg) translate(0,0)}50%{transform:rotate(45deg) translate(3px,3px)}}
   @media(prefers-reduced-motion:reduce){.kt-arrow{animation:none;transform:rotate(45deg)}}
 
-  /* ===== Betriebsmodell „Ein Satz, ein Start, ein Vergleich" (José 2026-06-24). Bewusst andere Struktur:
-     typografischer Statement-Block + nummerierter Start + Dunkel-Vergleich. Keine Preise (Gate 6). ===== */
+  
   .bm-page{--wy-dark:radial-gradient(135% 95% at 50% -8%,#241f17,#15110b 46%,#0b0805);background:var(--bg)}
   .bm-hero{padding:clamp(116px,17vh,184px) 0 clamp(34px,5vh,56px)}
   .bm-hero-inner{max-width:58rem}
@@ -2200,14 +2120,14 @@
   @media(min-width:560px){.bm-hero-ctas{flex-direction:row;align-items:center}}
   .bm-hero-ctas .btn{justify-content:center}
   @media(min-width:560px){.bm-hero-ctas .btn{justify-content:flex-start}}
-  /* STATEMENT */
+  
   .bm-stmt{padding:clamp(20px,3vh,38px) 0 clamp(40px,6vh,70px)}
   .bm-stmt-list{margin-top:clamp(8px,2vh,18px)}
   .bm-stmt-item{display:grid;grid-template-columns:1fr;gap:8px;padding:clamp(26px,4vh,42px) 0;border-top:1px solid var(--hair)}
   @media(min-width:860px){.bm-stmt-item{grid-template-columns:auto 1fr;column-gap:clamp(30px,5vw,70px)}.bm-stmt-n{grid-column:1;grid-row:1/3}.bm-stmt-h{grid-column:2;grid-row:1}.bm-stmt-p{grid-column:2;grid-row:2}}
   .bm-stmt-n{font-family:var(--mono);font-size:clamp(1.4rem,2vw,1.7rem);color:var(--accent-ink);line-height:1}
   @media(min-width:860px){.bm-stmt-n{font-size:clamp(2.2rem,3vw,3rem)}}
-  /* Icon je Statement: tinta neutra (kein Orange-Block), Coral nur als Akzent der Zahl bleibt */
+  
   .bm-stmt-ic{width:44px;height:44px;display:grid;place-items:center;border-radius:12px;background:rgba(26,22,18,.06);padding:10px;box-sizing:border-box;margin:0 0 14px}
   .bm-stmt-ic svg{width:100%!important;height:100%!important;display:block}
   .bm-stmt-ic svg [stroke]:not([stroke="none"]){stroke:var(--ink)}
@@ -2215,8 +2135,7 @@
   @media(min-width:860px){.bm-stmt-ic{grid-column:1;grid-row:1}.bm-stmt-item .bm-stmt-n{grid-row:2}.bm-stmt-h{grid-row:1}.bm-stmt-p{grid-row:2}}
   .bm-stmt-h{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,3vw,2.2rem);color:var(--ink);margin:0;line-height:1.12}
   .bm-stmt-h .ac{color:var(--accent)}
-  /* Kinetische Typografie (Signature): Schrift fuellt sich beim Scrollen von Kontur zu Voll.
-     Reines CSS (animation-timeline:view()), CSP-safe. Fallback = solid (lesbar) bei Firefox/reduced-motion. */
+  
   @media (prefers-reduced-motion: no-preference){
     @supports (animation-timeline: view()){
       .bm-stmt-h{
@@ -2233,14 +2152,13 @@
   }
   @keyframes bm-stmt-fill{to{background-size:100% 100%}}
   .bm-stmt-p{font-family:var(--body);font-size:1.04rem;line-height:1.62;color:var(--ink-2);max-width:60ch;margin:8px 0 0}
-  /* START */
+  
   .bm-start{padding:clamp(46px,7vh,82px) 0;border-top:1px solid var(--hair-soft)}
   .bm-start-head{max-width:62ch;margin:0 0 clamp(26px,4vh,40px)}
   .bm-start-h{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,3.6vw,2.5rem);color:var(--ink);margin:0 0 12px;max-width:22ch}
   .bm-start-h .ac{color:var(--accent)}
   .bm-start-p{font-family:var(--body);font-size:1.02rem;line-height:1.6;color:var(--ink-2);max-width:60ch;margin:0}
-  /* Schritte als verbundene Timeline (echte Sequenz): runde Coral-Badges + Verbindungslinie,
-     gleiche Bildsprache wie die Kontakt-Schritte. */
+  
   .bm-steps{list-style:none;margin:0;padding:0}
   .bm-step{display:grid;grid-template-columns:44px 1fr;gap:clamp(16px,3vw,28px);padding-bottom:clamp(24px,3.6vh,36px);align-items:start;position:relative}
   .bm-step:last-child{padding-bottom:0}
@@ -2251,14 +2169,13 @@
   .bm-step-body p{font-family:var(--body);font-size:1.02rem;line-height:1.6;color:var(--ink-2);max-width:62ch;margin:0}
   .bm-inline{display:inline-block;margin-top:6px;color:var(--accent-ink);text-decoration:none;font-weight:500;border-bottom:1px solid rgba(255,90,60,.4);padding:2px 0}
   @media(hover:hover) and (pointer:fine){.bm-inline:hover{border-bottom-color:var(--accent)}}
-  /* VERGLEICH (dunkel) */
+  
   .bm-vs{background:var(--wy-dark);color:#F4F2EB;padding:clamp(54px,8vh,98px) 0;margin-top:clamp(16px,2vh,28px)}
   .bm-vs .it-kick{color:rgba(244,242,235,.6)}
   .bm-vs-head{max-width:60ch;margin:0 0 clamp(28px,4vh,42px)}
   .bm-vs-h{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,3.6vw,2.5rem);color:#F4F2EB;margin:0;max-width:24ch}
   .bm-vs-h .ac{color:var(--accent)}
-  /* Gegenüberstellung als paarweise Zeilen (Thema für Thema: alte Schmerz -> WERIXO-Antwort).
-     Kontrast über Helligkeit + Marker (gedämpfter Strich vs Coral-Häkchen), KEIN farbiger Border. */
+  
   .bm-vs-table{display:flex;flex-direction:column}
   .bm-vs-headrow{display:none}
   @media(min-width:780px){.bm-vs-headrow{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,60px);padding:0 0 14px;border-bottom:1px solid rgba(244,242,235,.14)}}
@@ -2273,7 +2190,7 @@
   .bm-vs-mk{position:absolute;left:0;top:.62em;width:13px;height:2px;background:rgba(244,242,235,.34)}
   .bm-vs-ck{position:absolute;left:0;top:.06em;width:19px;height:19px;border-radius:50%;background:rgba(255,90,60,.16);color:var(--accent);display:grid;place-items:center;font-size:.68rem;font-weight:700;line-height:1}
   .bm-vs-note{font-family:var(--body);font-size:.96rem;line-height:1.6;color:rgba(244,242,235,.6);max-width:72ch;margin:clamp(22px,3vh,30px) 0 0}
-  /* GRENZEN */
+  
   .bm-grenzen{padding:clamp(50px,7vh,90px) 0}
   .bm-grenzen-inner{display:grid;grid-template-columns:1fr;gap:clamp(24px,4vw,46px)}
   @media(min-width:860px){.bm-grenzen-inner{grid-template-columns:.9fr 1.1fr;align-items:start}}
@@ -2283,7 +2200,7 @@
   .bm-grenzen-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
   .bm-grenzen-list li{font-family:var(--body);font-size:1.04rem;line-height:1.5;color:var(--ink);padding-left:30px;position:relative}
   .bm-grenzen-list li::before{content:"";position:absolute;left:0;top:.46em;width:13px;height:2px;background:var(--accent)}
-  /* CLOSE */
+  
   .bm-close{background:#fff;border-top:1px solid var(--hair);padding:clamp(64px,10vh,118px) 0;text-align:center}
   .bm-close-inner{max-width:46rem;margin:0 auto}
   .bm-close-h{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,3.4vw,2.6rem);color:var(--ink);line-height:1.1;margin:0 0 16px}
@@ -2292,14 +2209,10 @@
   .bm-close-ctas{display:flex;flex-direction:column;align-items:center;gap:14px}
   .bm-close-note{font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;color:var(--ink-3);text-transform:uppercase;margin:0}
 
-  /* ===== Preise v4 (2026-07-04, nach Ablehnung von v1/v2/v3 durch José). Richtung VORHER mit José abgestimmt:
-     preis-zuerst, eigene Identität statt Collage. Signatur = Live-Rechner (.pr-calc). Raus: nummerierte 01/02/03
-     (keine Sequenz = Deko) und dunkle Vergleichs-Tabelle (generisch). Governance: nur bestehende Tokens, Coral NIE
-     Kartenfläche (nur 2px-Rand + solider Badge), große Zahlen Chakra Petch. Karten gleich hoch: Flex-Column, CTA
-     per margin-top:auto am Fuß. ===== */
+  
   .pr-page{background:var(--bg)}
 
-  /* HERO: kompakt, kein Vorspann. Der Preis wartet nicht. */
+  
   .pr-hero{padding:clamp(112px,16vh,168px) 0 clamp(30px,4.4vh,48px)}
   .pr-hero-inner{max-width:60rem}
   .pr-h1{font-family:var(--display);font-weight:800;letter-spacing:-.03em;line-height:1.02;font-size:clamp(2.5rem,6.2vw,4.6rem);color:var(--ink);margin:0 0 clamp(16px,2.4vh,24px)}
@@ -2310,7 +2223,7 @@
   .pr-hero-ctas .btn{justify-content:center}
   @media(min-width:560px){.pr-hero-ctas .btn{justify-content:flex-start}}
 
-  /* TARIFE: drei gleichwertige Spalten, Managed empfohlen. Karten gleich hoch (stretch + Flex-Column). */
+  
   .pr-tiers{padding:clamp(28px,4vh,44px) 0 clamp(48px,6.5vh,76px);border-top:1px solid var(--hair-soft);background:#F6F7F9}
   .pr-tiers-head{max-width:66ch;margin:0 0 clamp(28px,4vh,40px)}
   .pr-tiers-p{font-family:var(--body);font-size:1.02rem;line-height:1.6;color:var(--ink-2);margin:14px 0 0}
@@ -2320,19 +2233,19 @@
   .pr-tier{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid #E4E7EB;border-radius:16px;padding:clamp(32px,3vw,40px) clamp(24px,2.4vw,30px) clamp(24px,2.4vw,30px);
     box-shadow:0 1px 2px rgba(19,21,26,.04),0 10px 26px -20px rgba(19,21,26,.14);transition:transform .2s,box-shadow .2s,border-color .2s}
   @media(hover:hover) and (pointer:fine){.pr-tier:hover{transform:translateY(-4px);box-shadow:0 20px 40px -22px rgba(19,21,26,.3)}}
-  /* Managed: Coral wirkt NUR über 2px-Vollrand + soliden Badge, nie als Fläche oder Glow (Governance). */
+  
   .pr-tier--reco{border:2px solid var(--accent);box-shadow:0 1px 2px rgba(19,21,26,.06),0 18px 40px -24px rgba(19,21,26,.28)}
   @media(min-width:980px){.pr-tier--reco{transform:translateY(-8px)}
     @media(hover:hover) and (pointer:fine){.pr-tier--reco:hover{transform:translateY(-12px)}}}
-  /* Solide Kategorie-Badges pro Karte (Stil Ramp), zentriert über der Oberkante. Coral solide nur für Badge/Border/CTA, nie Fläche. */
+  
   .pr-tier-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);white-space:nowrap;font-family:var(--mono);font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;padding:6px 13px;border-radius:8px;box-shadow:0 3px 8px -3px rgba(19,21,26,.28);z-index:2}
-  /* Badge-Farbspiel: warme Skala Creme → Tinte → Coral (statt mattem Grau), Coral bleibt einziger Akzent. */
+  
   .pr-tier-badge--stone{background:#EAE5D8;color:var(--ink);border:1px solid rgba(26,22,18,.1)}
   .pr-tier-badge--ink{background:var(--ink,#1A1612);color:#F4F2EB}
   .pr-tier-badge--coral{background:var(--accent);color:#fff}
   .pr-project-badge{position:static;transform:none;display:inline-block;margin:0 0 12px;box-shadow:none}
-  /* Icon-Chip pro Tarif: Lottie (self-hosted), coral. Wärme + Anker, animiert beim In-View und Karten-Hover. */
-  /* Icon-Chip: Ruhe = tintenneutral, Coral erst beim Karten-Hover (Governance-Regel „Chip Ruhe neutral, Coral Hover"). */
+  
+  
   .pr-tier-ic{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;background:rgba(26,22,18,.05);color:var(--ink);margin:0 0 18px;transition:background .2s,color .2s}
   .pr-tier-ic svg{width:26px;height:26px;display:block}
   .pr-tier-ic svg [stroke]{stroke:currentColor!important}
@@ -2354,7 +2267,7 @@
   .pr-tier-ctas{display:flex;flex-direction:column;gap:10px;margin-top:auto}
   .pr-tier-ctas .btn{width:100%;justify-content:center}
 
-  /* NIS2-Sprint: eigenes Projekt, breite Einzelzeile (kein Abo, keine vierte Karte) */
+  
   .pr-project{display:grid;grid-template-columns:1fr;gap:20px;background:#E9ECEF;border:1px solid #DCE0E4;border-radius:18px;padding:clamp(24px,3vw,34px);margin-top:clamp(20px,3vh,28px)}
   @media(min-width:760px){.pr-project{grid-template-columns:1fr auto;align-items:center;gap:clamp(30px,4vw,56px)}}
   .pr-project-name{font-family:var(--display);font-weight:800;font-size:1.35rem;color:var(--ink);margin:0 0 10px;line-height:1.12}
@@ -2368,9 +2281,8 @@
   .pr-tiers-foot{font-family:var(--body);font-size:.92rem;line-height:1.6;color:var(--ink-3);max-width:80ch;margin:clamp(24px,3.4vh,30px) 0 0}
   .pr-tiers-foot a{color:var(--accent-ink)}
 
-  /* SIGNATUR: Live-Rechner „Rechnen wir's durch". Warme Fläche für Gewicht, weiße Karte für den Rechner. */
-  /* SIGNATUR: Live-Rechner auf KÜHL-HELLER Fläche (blanco frío + Tiefe durch Ebenen, Trust-&-Authority laut
-     ui-ux-Datenbank — NICHT schwarz). Weiße Karte schwebt über kühlem Grau, Coral bündelt sich in der Zahl. */
+  
+  
   .pr-calc{background:#EDEFF2;padding:clamp(56px,8.5vh,104px) 0}
   .pr-calc .it-kick{color:var(--accent-ink)}
   .pr-calc-grid{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vh,44px)}
@@ -2400,7 +2312,7 @@
   .pr-calc-hint strong{color:var(--accent-ink)}
   .pr-calc-note{font-family:var(--mono);font-size:.72rem;line-height:1.5;color:var(--ink-3);margin:14px 0 0}
 
-  /* PREIS-FAQ: echte GF-Fragen, zweispaltig für Dichte */
+  
   .pr-faq{padding:clamp(48px,7vh,84px) 0;border-top:1px solid var(--hair-soft)}
   .pr-faq-head{max-width:60ch;margin:0 0 clamp(24px,3.4vh,34px)}
   .pr-faq-h{font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,3.2vw,2.3rem);color:var(--ink);line-height:1.14;margin:14px 0 0;max-width:24ch}
@@ -2411,7 +2323,7 @@
   .pr-faq-a{font-family:var(--body);font-size:1rem;line-height:1.6;color:var(--ink-2);margin:0}
   .pr-faq-a a{color:var(--accent-ink)}
 
-  /* ABSCHLUSS: zentriert */
+  
   .pr-close{background:#fff;border-top:1px solid var(--hair);padding:clamp(60px,9vh,110px) 0;text-align:center}
   .pr-close-inner{max-width:46rem;margin:0 auto}
   .pr-close-h{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,3.4vw,2.6rem);color:var(--ink);line-height:1.1;margin:0 0 16px}
@@ -2420,8 +2332,7 @@
   .pr-close-ctas{display:flex;flex-direction:column;align-items:center;gap:14px}
   .pr-close-note{font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;color:var(--ink-3);text-transform:uppercase;margin:0}
 
-  /* ===== Sicherheit „Schutzring" (José 2026-06-24). Hero = WebGL Fracture-Ring (three.js, Coral, self-hosted),
-     nur Desktop/no-reduced-motion; sonst statisches Fallback-Bild. ===== */
+  
   .sec-page{--wy-dark:radial-gradient(135% 95% at 50% -8%,#241f17,#15110b 46%,#0b0805);background:var(--bg)}
   .sec-hero{position:relative;min-height:clamp(560px,90svh,860px);display:flex;align-items:center;overflow:hidden;background:#0b0805;isolation:isolate}
   .sec-ring{position:absolute;inset:0;width:100%;height:100%;z-index:0;display:none}
@@ -2443,7 +2354,7 @@
   @media(min-width:560px){.sec-hero-ctas .btn{justify-content:flex-start}}
   .sec-hero-ctas .btn.ghost{color:#F7F5EE;border-color:rgba(244,242,235,.5)}
   @media(hover:hover) and (pointer:fine){.sec-hero-ctas .btn.ghost:hover{background:#F7F5EE;color:#13151A}}
-  /* SCHICHTEN */
+  
   .sec-layers{padding:clamp(48px,7vh,86px) 0}
   .sec-h2{font-family:var(--display);font-weight:800;letter-spacing:-.01em;font-size:clamp(1.7rem,3.4vw,2.5rem);color:var(--ink);margin:0 0 clamp(22px,3vh,32px)}
   .sec-grid{display:grid;grid-template-columns:1fr;gap:14px}
@@ -2459,7 +2370,7 @@
   .sec-card-d{font-family:var(--body);font-size:.95rem;line-height:1.5;color:var(--ink-2)}
   .sec-card .card-go{color:var(--ink-3)}
   @media(hover:hover) and (pointer:fine){.sec-card:hover .card-go{transform:translateX(4px) translateY(-4px);color:var(--accent)}}
-  /* VERSTEHEN (dunkel) */
+  
   .sec-verstehen{background:var(--wy-dark);color:#F4F2EB;padding:clamp(54px,8vh,98px) 0}
   .sec-verstehen .it-kick{color:rgba(244,242,235,.6)}
   .sec-verstehen-head{max-width:62ch;margin:0 0 clamp(28px,4vh,44px)}
@@ -2475,7 +2386,7 @@
   .sec-prinzip-ic :is(svg,canvas){width:30px;height:30px}
   .sec-prinzip h3{font-family:var(--display);font-weight:700;font-size:1.16rem;color:#F4F2EB;margin:14px 0 8px}
   .sec-prinzip p{font-family:var(--body);font-size:.97rem;line-height:1.58;color:rgba(244,242,235,.74);margin:0}
-  /* SCOPE */
+  
   .sec-scope{padding:clamp(50px,7vh,90px) 0}
   .sec-scope-inner{display:grid;grid-template-columns:1fr;gap:clamp(24px,4vw,46px)}
   @media(min-width:860px){.sec-scope-inner{grid-template-columns:.9fr 1.1fr;align-items:start}}
@@ -2485,13 +2396,13 @@
   .sec-scope-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
   .sec-scope-list li{font-family:var(--body);font-size:1.02rem;line-height:1.5;color:var(--ink);padding-left:30px;position:relative}
   .sec-scope-list li::before{content:"";position:absolute;left:0;top:.46em;width:13px;height:2px;background:var(--accent)}
-  /* NACHWEIS */
+  
   .sec-nachweis{padding:clamp(44px,6vh,80px) 0;border-top:1px solid var(--hair-soft)}
   .sec-nachweis-inner{max-width:54rem}
   .sec-nachweis-h{font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,3.4vw,2.4rem);color:var(--ink);margin:0 0 12px}
   .sec-nachweis-h .ac{color:var(--accent)}
   .sec-nachweis-p{font-family:var(--body);font-size:1.05rem;line-height:1.62;color:var(--ink-2);max-width:60ch;margin:0 0 clamp(20px,3vh,28px)}
-  /* CLOSE */
+  
   .sec-close{background:#fff;border-top:1px solid var(--hair);padding:clamp(64px,10vh,118px) 0;text-align:center}
   .sec-close-inner{max-width:46rem;margin:0 auto}
   .sec-close-h{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,3.4vw,2.6rem);color:var(--ink);line-height:1.1;margin:0 0 16px}
@@ -2500,14 +2411,12 @@
   .sec-close-ctas{display:flex;flex-direction:column;align-items:center;gap:14px}
   .sec-close-note{font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;color:var(--ink-3);text-transform:uppercase;margin:0}
 
-  /* ===== LEGAL-Seiten (Impressum/Datenschutz/AGB/AVV) — flacher lgl-* Stil im Site-Shell (José 2026-06-27:
-     UI wie online = voller Header/Mega/Footer + saubere Spalte + sticky TOC „menú"). Tokens = Site-System
-     (Coral-Akzent, Chakra Display, Inter Body, Departure Mono). Eindeutiger Präfix lgl-, keine Kollision. ===== */
+  
   .lgl{background:var(--bg);padding-bottom:clamp(56px,9vh,104px)}
   .lgl-hero{padding:clamp(104px,15vh,168px) 0 clamp(28px,5vh,48px);border-bottom:1px solid var(--hair)}
   .lgl-title{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3.1rem);letter-spacing:-.025em;color:var(--ink);line-height:1.05;margin:.6rem 0 0;overflow-wrap:break-word}
   .lgl-meta{font-family:var(--mono);font-size:.78rem;letter-spacing:.02em;color:var(--ink-3);line-height:1.5;margin:.9rem 0 0;max-width:62ch}
-  /* Spalte + TOC: Mobile gestapelt (TOC oben), Desktop Grid mit sticky TOC rechts */
+  
   .lgl-wrap{display:flex;flex-direction:column;gap:0;padding-top:clamp(28px,5vh,44px)}
   .lgl-body{order:2;min-width:0;max-width:48rem}
   .lgl-toc{order:1;margin-bottom:2.4rem}
@@ -2518,7 +2427,7 @@
   @media(hover:hover) and (pointer:fine){.lgl-toc-list a:hover{color:var(--ink);border-left-color:var(--hair)}.lgl-toc-list a:hover .lgl-toc-n{color:var(--accent)}}
   .lgl-toc-list a:target,.lgl-toc-list a.is-active{color:var(--ink);border-left-color:var(--accent)}
   .lgl-toc-list a.is-active .lgl-toc-n{color:var(--accent)}
-  /* Sections */
+  
   .lgl-sec{padding-top:2.6rem;scroll-margin-top:96px}
   .lgl-sec:first-child{padding-top:0}
   .lgl-sec h2{font-family:var(--display);font-weight:700;font-size:clamp(1.2rem,2.4vw,1.45rem);letter-spacing:-.01em;color:var(--ink);line-height:1.25;margin:0 0 .9rem}
@@ -2531,11 +2440,11 @@
   .lgl-sec a:hover{text-decoration-thickness:2px}
   .lgl-sec strong{color:var(--ink);font-weight:700}
   .lgl-sec code{font-family:var(--mono);font-size:.86em;background:rgba(19,21,26,.06);padding:.08em .35em;border-radius:4px}
-  /* Karte: solide Fläche (kein farbiger linker Border — site-konform), Label in Mono */
+  
   .lgl-card{background:#fff;border:1px solid var(--hair);border-radius:12px;padding:1.05rem 1.2rem;margin:1.1rem 0 0;box-shadow:0 1px 0 rgba(19,21,26,.03)}
   .lgl-card-l{display:block;font-family:var(--mono);font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent-ink);margin:0 0 .5rem}
   .lgl-card p{font-size:.96rem;line-height:1.6}
-  /* Subprozessoren-Tabelle (Datenschutz) */
+  
   .lgl-table-wrap{margin-top:1rem;overflow-x:auto;border:1px solid var(--hair);border-radius:10px}
   .lgl-table{width:100%;border-collapse:collapse;font-family:var(--body);font-size:.82rem;line-height:1.5;min-width:660px}
   .lgl-table thead{background:#fff}
@@ -2560,9 +2469,7 @@
     <div class="hdr-main">
     <a class="brand" href="./index.html">WERIXO<span class="dot"></span></a>
     <nav class="nav">
-      <!-- Fase A: Nav auf In-Page-Anker reduziert. Voller Header/Mega = Fase C/D nach SSOT. -->
-      <!-- Trigger 1: Leistungen — zu #nachweis (Bericht-Sektion) -->
-      <div class="nav-item" data-mega>
+                  <div class="nav-item" data-mega>
         <button class="nav-link" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="mega-leistungen">Leistungen
           <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
         </button>
@@ -2589,24 +2496,19 @@
           <div class="mega-foot"><a href="./leistungen.html">Alle Leistungen ansehen →</a><a href="#cal">Erstgespräch vereinbaren →</a></div>
         </div>
       </div>
-      <!-- Betriebsmodell — direkter Link (kein Fake-Dropdown, das auf eine einzige Seite zeigt) -->
-      <div class="nav-item">
+            <div class="nav-item">
         <a class="nav-link nav-link--plain" href="./betriebsmodell.html">Betriebsmodell</a>
       </div>
-      <!-- Sicherheit — direkter Link -->
-      <div class="nav-item">
+            <div class="nav-item">
         <a class="nav-link nav-link--plain" href="./sicherheit.html">Sicherheit</a>
       </div>
-      <!-- Preise — direkter Link -->
-      <div class="nav-item">
+            <div class="nav-item">
         <a class="nav-link nav-link--plain" href="./preise.html">Preise</a>
       </div>
-      <!-- Warum WERIXO — direkter Link -->
-      <div class="nav-item">
+            <div class="nav-item">
         <a class="nav-link nav-link--plain" href="./warum-werixo.html">Warum</a>
       </div>
-      <!-- Kontakt — direkter Link -->
-      <div class="nav-item">
+            <div class="nav-item">
         <a class="nav-link nav-link--plain" href="./kontakt.html">Kontakt</a>
       </div>
     </nav>
@@ -2618,7 +2520,6 @@
   </header>
 </div>
 
-<!-- Mobile-Navigation: Vollbild-Panel (José 2026-06-13: <960px gab es keinen Zugang zur Navigation). WERIXO-Sprache: Crema, Dot-Grid, Mono-Ziffern coral, Crop-Marks. -->
 <div class="mobnav" id="mobnav" inert>
   <div class="mn-inner">
     <div class="mn-top">
@@ -2632,8 +2533,7 @@
         <span class="mn-n">01</span><span class="mn-t">Leistungen</span>
         <svg class="mn-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
       </button>
-      <!-- Fase A: Mobile-Sub-Links auf In-Page-Anker reduziert. Voller Header/Mega = Fase C/D nach SSOT. -->
-      <div class="mn-sub" id="mnsub1"><div class="mn-sub-in">
+            <div class="mn-sub" id="mnsub1"><div class="mn-sub-in">
         <p class="mn-sub-h">Betrieb</p>
         <a class="mn-grp-first" href="./it-support.html">IT-Support</a>
         <a href="./microsoft-365.html">Microsoft 365</a>
@@ -2660,19 +2560,9 @@
 
 <div id="main-content" tabindex="-1" class="skip-target"></div>
 <main>
-<!-- Preise: D13-Modell mit echten Tarifen (José-Entscheidung 2026-06-24: Preise zeigen, da Vorschau privat/noindex
-     auf GitHub, NICHT werixo.de). ⚠️ werixo.de bleibt bis Gate 6 offline; NICHT auf Prod deployen, solange Gate 6 offen.
-     Redesign v5 „Stil Ramp" (2026-07-04, José-Entscheidung nach v1..v4 „zu weiß/insipido"). Kern der Korrektur: nicht
-     die weiße Fläche war das Problem, sondern fehlende Präsenz. Ramp ist weiß, wirkt aber, weil Farbe SOLIDE und
-     selbstbewusst eingesetzt wird. Also: große Headline, solide Kategorie-Badges pro Karte (wie Ramps „AI-assisted/
-     powered/tailored"), Managed mit dicker Coral-Border + gefülltem Coral-CTA, und ZWEI CTAs pro Karte (Ramp-Muster:
-     dort Feld + Button; hier zwei echte Kontaktwege, kein Fake-Feld: Erstgespräch + Rückruf). Signatur bleibt der
-     Live-Rechner. Governance: Coral solide erlaubt für Badge/CTA/Border, NIE als Kartenfläche; Zahlen Chakra Petch.
-     Preisbeträge/Stufen-Namen/Leistungslisten wortgleich. Keine Gedankenstriche. -->
 <div class="pr-page">
 
-  <!-- HERO: kompakt, große selbstbewusste Headline (Stil Ramp). Der Preis wartet nicht. -->
-  <section class="pr-hero">
+    <section class="pr-hero">
     <div class="cw">
       <div class="pr-hero-inner">
         <p class="it-kick"><span class="dot"></span>Preise</p>
@@ -2686,8 +2576,7 @@
     </div>
   </section>
 
-  <!-- TARIFE: drei gleichwertige Spalten, solide Badges, Managed empfohlen. Zwei CTAs pro Karte (Stil Ramp). -->
-  <section class="pr-tiers" id="pr-modelle">
+    <section class="pr-tiers" id="pr-modelle">
     <div class="cw">
       <div class="pr-tiers-head">
         <p class="it-kick"><span class="dot"></span>Die Tarife</p>
@@ -2755,8 +2644,7 @@
         </article>
       </div>
 
-      <!-- NIS2-Sprint: eigenes Projekt, kein Abo. Breite Einzelzeile, nicht als vierte Karte. -->
-      <article class="pr-project">
+            <article class="pr-project">
         <div class="pr-project-main">
           <p class="pr-tier-badge pr-tier-badge--ink pr-project-badge">Projekt, kein Abo</p>
           <h3 class="pr-project-name">NIS2-Sprint</h3>
@@ -2773,8 +2661,7 @@
     </div>
   </section>
 
-  <!-- SIGNATUR: Live-Rechner „Rechnen wir's durch". Das eine unverwechselbare Stück dieser Seite. -->
-  <section class="pr-calc">
+    <section class="pr-calc">
     <div class="cw">
       <div class="pr-calc-grid">
         <div class="pr-calc-intro">
@@ -2814,8 +2701,7 @@
     </div>
   </section>
 
-  <!-- PREIS-FAQ: echte Fragen eines Geschäftsführers vor der Entscheidung. Dichte statt Leere. -->
-  <section class="pr-faq">
+    <section class="pr-faq">
     <div class="cw">
       <div class="pr-faq-head">
         <p class="it-kick"><span class="dot"></span>Bevor Sie fragen</p>
@@ -2842,8 +2728,7 @@
     </div>
   </section>
 
-  <!-- ABSCHLUSS -->
-  <footer class="pr-close">
+    <footer class="pr-close">
     <div class="cw">
       <div class="pr-close-inner">
         <h2 class="pr-close-h">Nach einem kurzen Gespräch <span class="ac">wissen Sie, woran Sie sind.</span></h2>
@@ -2864,8 +2749,7 @@
 <footer class="ft">
   <div class="cw">
     <div class="ft-body">
-      <!-- Columna izq: eyebrow + wordmark (membrete) + tarjeta-informe -->
-      <div class="report-col">
+            <div class="report-col">
         <div class="ft-head">
           <p class="ft-eyebrow"><span class="dot"></span> Jeden Monat ein Bericht</p>
           <svg class="ft-word" viewBox="0 0 326 64" preserveAspectRatio="xMinYMid meet" role="img" aria-label="WERIXO">
@@ -2873,8 +2757,7 @@
             <rect class="wdot" x="305" y="43" width="17" height="17"/>
           </svg>
         </div>
-        <!-- Tarjeta-informe: el Nachweis hecho objeto (Beispiel, anonymisiert) -->
-        <div class="report">
+                <div class="report">
         <div class="report-top">
           <span class="rt-name">Monatsbericht</span>
           <span class="rt-date">Mai 2026 · Beispiel</span>
@@ -2894,16 +2777,14 @@
         </div>
       </div>
 
-      <!-- Conversión + calendario propio -->
-      <div class="convo">
+            <div class="convo">
         <div class="ft-head">
           <p class="ft-eyebrow"><span class="dot"></span> Termin</p>
           <h2>Ihr erster Bericht beginnt mit einem Gespräch.</h2>
           <p class="lead">Kein Verkaufstermin, wir nehmen uns Zeit. Sie erzählen, wie Ihre IT heute läuft, wir sagen ehrlich, ob und wie wir helfen. Macht Ihr jetziger Dienstleister gute Arbeit, sagen wir auch das.</p>
         </div>
         <div class="cal" id="cal">
-          <!-- Ansicht 1: Monat (echte Verfügbarkeit aus Cal.com EU) -->
-          <div class="cal-month">
+                    <div class="cal-month">
             <div class="cal-top">
               <span class="cal-mon"></span>
               <span class="cal-nav">
@@ -2921,8 +2802,7 @@
               <p class="cal-mfnote">Tag wählen für freie Uhrzeiten. Lieber direkt? <a href="tel:+4915565029989">+49 1556 5029989</a></p>
             </div>
           </div>
-          <!-- Ansicht 2: freie Uhrzeiten des gewählten Tags -->
-          <div class="cal-slots" hidden>
+                    <div class="cal-slots" hidden>
             <div class="cal-slots-top">
               <button class="cal-back" type="button">‹ zurück</button>
               <span class="cal-slots-date"></span>
@@ -2930,8 +2810,7 @@
             <div class="cal-slots-list"></div>
             <p class="cal-slots-note">Online oder vor Ort · Mo–Fr · unverbindlich</p>
           </div>
-          <!-- Ansicht 3: Mini-Formular (Attendee-Daten) -->
-          <div class="cal-form" hidden>
+                    <div class="cal-form" hidden>
             <div class="cal-slots-top">
               <button class="cal-form-back" type="button">‹ zurück</button>
               <span class="cal-slots-date">Ihre Angaben</span>
@@ -2974,8 +2853,7 @@
               </div>
             </form>
           </div>
-          <!-- Ansicht 4: Bestätigung -->
-          <div class="cal-done" hidden>
+                    <div class="cal-done" hidden>
             <span class="cd-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
             <h3>Termin gebucht.</h3>
             <p><span class="cd-date"></span></p>
@@ -3015,13 +2893,11 @@
   </div>
 </footer>
 
-<!-- GSAP + ScrollTrigger (CDN, → no pasa por el bundler) -->
 <script src="./vendor/gsap/gsap.min.js"></script>
 <script src="./vendor/gsap/ScrollTrigger.min.js"></script>
 <script src="./vendor/gsap/Flip.min.js"></script>
 <script src="./vendor/gsap/SplitText.min.js"></script>
 <script src="./vendor/imagesloaded.min.js"></script>
-<!-- Lenis (smooth scroll premium). Self-hosted UMD → window.Lenis (CSP/DSGVO-konform, kein CDN). Integración con GSAP abajo (módulo). -->
 <script src="./vendor/lenis/lenis.min.js"></script>
 <script>
   // Lenis + GSAP: smooth scroll de toda la página (window). Sin reestructurar DOM; el header fijo y los ScrollTriggers siguen igual.
@@ -3036,7 +2912,6 @@
     gsap.ticker.lagSmoothing(0);
   })();
 </script>
-<!-- SIN → Astro lo hashea y bundlea como módulo 'self' (el CSP de hashes ignora 'unsafe-inline'; NO recibe hash = bloqueado). Lee window.gsap de los <script src> de arriba. -->
 <script>
   // „WERIXO in drei Sätzen" v2 — vollständiges Motion-Vokabular mit gsap.matchMedia().
   // Desktop ≥880px: kicker+H2 fade-up, Statements stagger (y+opacity), Nummern emphasis (scale+y),
@@ -3602,7 +3477,7 @@
 </script>
 
 <script>
-  // Animierter Hero-Hintergrund Backup (paper-shaders Dithering, José 2026-06-18). Dynamischer Import → nur geladen,
+  
   // wenn .bk-hero-bg existiert (kontaminiert die Home nicht). reduced-motion → statisch; außerhalb Viewport → pausiert.
   (function(){
     const el = document.querySelector('.bk-hero-bg');
@@ -3747,8 +3622,6 @@
   })();
 </script>
 
-<!-- Hero-Mesh: malla de puntos que rellena SOLO el vacío del hero, recortando la silueta (globo = círculo, texto = rounded-rect). -->
-<!-- Cursor → brillo coral sutil por proximidad. Sin física, sin dependencias. Render bajo demanda (reposo = quieto y barato). -->
 <script>
   (function(){
     if(window.__heroMesh) return; window.__heroMesh=true;
@@ -3764,9 +3637,9 @@
 
     // Sistema de puntos en sintonía con el bento (paso ~22px).
     const CELL=22, R1=2.1, PROX=130;
-    const R0 = ambient ? 1.5 : 1.2;   // radio reposo; en móvil (ambient) el punto es mayor para que la malla y su onda se aprecien (José 2026-06-21)
+    const R0 = ambient ? 1.5 : 1.2;   
     const INK=[19,21,26], CORAL=[255,90,60];
-    const A0 = ambient ? 0.17 : 0.13, A1=0.30;     // A0 reposo; en móvil más opaca para que la malla se vea (José 2026-06-21)
+    const A0 = ambient ? 0.17 : 0.13, A1=0.30;     
     const PAD=22, RAD=16;       // gutter del recorte de texto + radio de esquina
     const lerp=(a,b,t)=>a+(b-a)*t;
 
@@ -3815,7 +3688,7 @@
       ctx.clearRect(0,0,W,H);
       const p2=PROX*PROX;
       const t=frame*0.02;
-      const wave = ambient ? 4.6 : 2.4*eng;   // ambient (móvil): onda continua, subida 2.2→4.6 para que se aprecien las ondas (José 2026-06-21); desktop: solo al interactuar
+      const wave = ambient ? 4.6 : 2.4*eng;   
       const near=[];                 // [dx,dy,tg,...] de los puntos cerca del cursor (brillo coral)
       ctx.fillStyle=INKRGB;
       ctx.beginPath();
@@ -3930,7 +3803,6 @@
   })();
 </script>
 
-<!-- Sección 2 (Beleg) scrollytelling ELIMINADO 2026-06-06 (José). Se rehará con otra estrategia. -->
 
 <script>
   // Eigener Kalender (WERIXO-Stil) auf Cal.com EU REST. Echte Slots + echte Buchung, ohne iframe, ohne Key im Client.
@@ -4069,7 +3941,7 @@
       }
     });
 
-    // Datenschutz/Datenminimierung (José 2026-06-24): KEIN Auto-Fetch an Cal.com beim Seitenaufruf.
+    
     // Die Verfügbarkeit (und damit die Verbindung zu eu.cal.com, die die Besucher-IP überträgt) wird
     // erst geladen, wenn der Kalender in den sichtbaren Bereich gelangt. Reiner Seitenaufruf ohne
     // Scrollen bis zum Kalender überträgt keine Daten an Cal.com.
@@ -4184,7 +4056,7 @@
       item.addEventListener('mouseenter',()=>{ if(fine.matches) openItem(item); });
       item.addEventListener('mouseleave',()=>{ if(fine.matches){ clearTimeout(closeTimer); closeTimer=setTimeout(closeAll, 240); } });
 
-      // Klick: NUR auf Touch/ohne Hover (Desktop öffnet per Hover, nicht per Klick — José 2026-06-17).
+      
       // Auf Touch (kein Hover) ist der Klick der einzige Weg ins Menü, daher dort weiter Toggle.
       if(btn) btn.addEventListener('click',()=>{
         if(fine.matches) return;
@@ -4319,16 +4191,7 @@
     let phi = 0, w = 0;
     const measure = () => { w = canvas.offsetWidth || 520; };
     measure();
-    /* ── COBE · CONFIG VISUAL CANÓNICA (aprobada José 2026-06-16, "la más perfecta vista") ──
-       Look del globo del Hero. NO cambiar sin OK de José. Claves del aspecto:
-       · dark: 0            → globo plano, claro y uniforme (sin lado en sombra)
-       · diffuse: 0.55      → iluminación suave de la superficie
-       · baseColor [1,1,1]  → esfera blanca; markerColor coral WERIXO #FF5A3C
-       · glowColor [.5,.5,.5] → rim GRIS MEDIO, el parámetro decisivo del contorno
-         sobre el fondo cool-white #F6F9FC. Historia de iteración (no reabrir):
-           [1,1,1] blanco = halo fluorescente .................. rechazado 2026-06-16
-           [0,0,0] negro  = rim demasiado oscuro/pesado ........ rechazado 2026-06-16
-           [.5,.5,.5]     = rim suave, da volumen sin cargar ... APROBADO (esta) */
+    
     const globe = createGlobe(canvas, {
       devicePixelRatio: 2, width: w*2, height: w*2,
       phi: 0, theta: 0.2, dark: 0, diffuse: 0.55, mapSamples: 16000, mapBrightness: 6,
@@ -4782,8 +4645,6 @@
   })();
   }
 </script>
-<!-- Preise: Live-Rechner „Rechnen wir's durch" (nur .pr-calc). Reine Orientierung, kein Vertrag. Total zählt animiert
-     hoch (GSAP falls vorhanden, sonst direkter Wert). Inhalt steht ohne JS/Motion vollständig im HTML. -->
 <script>
   (function(){
     var card=document.querySelector('.pr-calc-card[data-cfg]'); if(!card) return;
@@ -4821,7 +4682,6 @@
     render();
   })();
 </script>
-<!-- Header Hide-on-Scroll (nur Mobile): runter = Header weg, hoch = zurück. Modul (Astro hasht → CSP 'self'). -->
 <script>
   (function(){
     var wrap = document.querySelector('.topwrap');
