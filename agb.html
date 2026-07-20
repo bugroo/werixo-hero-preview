@@ -273,9 +273,9 @@
   .btn.ink{background:var(--ink);color:#F4F2EB;box-shadow:0 1px 2px rgba(19,21,26,.08),0 10px 22px -12px rgba(19,21,26,.30)}
   .btn.ink:hover{background:#000;transform:translateY(-1px);box-shadow:0 1px 2px rgba(19,21,26,.10),0 12px 24px -14px rgba(19,21,26,.36)}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-  .trust{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 28px;font-family:var(--mono);font-size:.95rem;letter-spacing:.02em;color:var(--ink);opacity:0;animation:rise .8s .52s ease forwards}
+  .trust{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 28px;font-family:var(--mono);font-size:.86rem;letter-spacing:.02em;color:var(--ink);opacity:0;animation:rise .8s .52s ease forwards}
   .trust span{min-width:0}   /* permite que el texto largo envuelva en vez de recortarse */
-  .trust span{display:inline-flex;align-items:center;gap:9px}
+  .trust span{display:inline-flex;align-items:center;gap:9px;white-space:nowrap}
   .trust span svg{width:1.18em;height:1.18em;flex:none;color:var(--accent)}
   .trust .ico{width:1.18em;height:1.18em}
   @media(prefers-reduced-motion:reduce){.eyebrow,h1.head,.sub,.ctas,.trust,.orbit-svg,.globe-overlay,.brand .dot{animation:none;opacity:1}.wxb::after{animation:none;transform:scaleX(1)}}
@@ -293,6 +293,7 @@
     .ctas{flex-direction:column;align-items:stretch}             /* CTAs apilados a igual ancho, touch-target uniforme */
     .ctas .btn{width:100%;justify-content:center}
     .trust{grid-template-columns:1fr;justify-items:start;width:fit-content;margin:0 auto;gap:12px}  /* bloque centrado, items a la izq → iconos alineados en columna */
+    .eyebrow{font-size:.78rem;letter-spacing:.08em}     /* cabe en una línea en móvil */
     .globe-wrap{width:min(330px,86vw)}
     .globe-overlay .gw{font-size:.95rem;letter-spacing:.04em}                 /* WERIXO cabe dentro del globo, sin tocar el borde */
     .cobe-lbl,.arc-lbl{font-size:.5rem;padding:.1rem .26rem}     /* etiquetas vuelven, solo más pequeñas */
