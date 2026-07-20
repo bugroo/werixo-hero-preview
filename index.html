@@ -261,14 +261,14 @@
   .sub{font-size:clamp(1.1rem,1.5vw,1.4rem);line-height:1.5;color:var(--ink-2);margin:0 0 38px;opacity:0;animation:rise .8s .28s ease forwards}
   .sub strong{color:var(--ink);font-weight:600}
   .ctas{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:0 0 40px;opacity:0;animation:rise .8s .4s ease forwards}
-  .btn{font-family:var(--mono);font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;padding:17px 30px;border-radius:12px;display:inline-flex;align-items:center;gap:10px;transition:transform .16s,box-shadow .2s,background .2s}
+  .btn{font-family:var(--mono);font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;padding:17px 30px;border-radius:12px;display:inline-flex;align-items:center;gap:10px;transition:transform .16s,box-shadow .2s,background .2s,color .2s,border-color .2s}
   .btn .arr{transition:transform .2s}.btn:hover .arr{transform:translateX(4px)}
   .btn.primary{background:var(--accent);color:#fff;box-shadow:0 1px 2px rgba(19,21,26,.08),0 10px 22px -12px rgba(19,21,26,.30)}
-  .btn.primary:hover{background:#E8492A;transform:translateY(-3px) scale(1.02);box-shadow:0 1px 2px rgba(19,21,26,.10),0 16px 32px -16px rgba(19,21,26,.40)}
+  .btn.primary:hover{background:#E8492A;transform:translateY(-1px);box-shadow:0 1px 2px rgba(19,21,26,.10),0 12px 24px -14px rgba(19,21,26,.36)}
   .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
-  .btn.ghost:hover{background:var(--ink);color:#fff;transform:translateY(-3px) scale(1.02)}
+  .btn.ghost:hover{background:var(--ink);color:#fff;transform:translateY(-1px)}
   .btn.ink{background:var(--ink);color:#F4F2EB;box-shadow:0 1px 2px rgba(19,21,26,.08),0 10px 22px -12px rgba(19,21,26,.30)}
-  .btn.ink:hover{background:#000;transform:translateY(-3px) scale(1.02);box-shadow:0 1px 2px rgba(19,21,26,.10),0 16px 32px -16px rgba(19,21,26,.40)}
+  .btn.ink:hover{background:#000;transform:translateY(-1px);box-shadow:0 1px 2px rgba(19,21,26,.10),0 12px 24px -14px rgba(19,21,26,.36)}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
   .trust{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 28px;font-family:var(--mono);font-size:.95rem;letter-spacing:.02em;color:var(--ink);opacity:0;animation:rise .8s .52s ease forwards}
   .trust span{min-width:0}   /* permite que el texto largo envuelva en vez de recortarse */
