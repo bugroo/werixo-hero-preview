@@ -1,3 +1,3 @@
-# WERIXO Hero Preview (privado, noindex)
+# WERIXO Hero Preview (pública, noindex)
 
-Snapshot estático para revisión. No es producción (werixo.de intacto). noindex,nofollow.
+Aplicación web pública actual de WERIXO en GitHub Pages. Snapshot estático de la fuente AstroFlow; `werixo.de` permanece como holder hasta un cutover separado. `noindex,nofollow`.

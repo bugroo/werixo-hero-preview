@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self';base-uri 'none';object-src 'none';form-action 'self';img-src 'self' data: https:;font-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://plausible.io https://challenges.cloudflare.com 'sha256-rj8/8tPsBb/VCKPsdz69DvGOf75+BkciCtGV7C/5Wrk=' 'sha256-ousEXb9WxgwDO7LoW22Utd8XzB32LR9OQv/ivzdtyWE=' 'sha256-ahoZuQya47j4jLwBF1Y7pPia0OkMiZW8SomijFKbDEk=' 'sha256-4c+Ud/dcTbDnUqmkHaI5nOptRuTFbt+K9yQZKeuhkeE=' 'sha256-LaPtcCFbxerlViiMQY9I9dPQ3vcBgvjrAmQ/dDJ6hts=' 'sha256-o2WEb4qIbtMA9g+liPvf9sREN60Mn3VOSRmJtSO0QcI=' 'sha256-HPTTFYpRyT0+oeEIPfRThpBKlsgO2VHqYyv48oaoqKE=' 'sha256-+xP6LEYqqv2s1VkZL0lgUdRilWhSZQFZ7quISt3Ah5k=' 'sha256-owZkm0iyS6hVfl+iRVQOifCAOUUqUEVyEvkZaM93LPs=' 'sha256-bdHIzejcfihC+lID5xzdQT+SsRDYK0HNt63ufhqiy7I=' 'sha256-Of/voPuCRludWjfq3Gk+NbnSq/lJhF+4QUsDQSOAhiM=' 'sha256-bHdoXd8++kDXjmhKu1RRr5S0xxyxdyP6zTdrlyXpTvM=' 'sha256-J3LGnnyIC4j96/cZAhJk5AgGBw3JZUU85ztjW2hVCWg=' 'sha256-4p/cCu/WJsmw364ZLuhYu8YjdgjsCvbRwwvjL5lQZRM=' 'sha256-6aN9u9gZD2BMdc7ry3T8hO+x2ucWt/dAm7lAMb/6uSI=' 'sha256-QP7Z0SpvUUlQDqprUZllH/IWf0d1PgU2YjwOcd6D5M4=' 'sha256-UOQapuUNlp3bf1OjeLL2OD6VE7bGgFSkp+bGEctpxOs=' 'sha256-W8W4dHVbVcrQuwXEQOrl+dVbm7N5OnKoBZFFxZLirrc=' 'sha256-fKRAeTdSQc5QRhIlUFOxYIjAW/27llSvsqSAmHLgDcA=' 'sha256-jZZ5C2U2katy2RVaFMKBdB8c31wuch88lW9ZSxx+LbE=' 'sha256-y2WsT7voSe/SUvDnXsHyzOeV7Se9GlPypDLyDLczg2w=' 'sha256-qZ6kOUGgA59n/T+PAF7tcD2Z7cFGz3lSFSJumBcJYNY=' 'sha256-Lw3htUROsgvGbwBpOv2n5xqn3XgRjgaz7xM4Z7MNqOg=' 'sha256-fvS2W/RYeplg2eDOjnaoKBauWuCv1nOdm3tBGDTcz14=' 'sha256-5PP9GzNrDN4YXa1eqaXQmgISEpA0XHlv0X7po/P1G6M=' 'sha256-n1IofQE6jMliOl6XgUF1EWkFuckweAMUeoQ3F1sTF4Q=' 'sha256-QPuT8qVNtGPbGnidjYy2LHtkrImJwT0jztTOeAsJ5Rk=' 'sha256-mwa/NiwPzBQVnNLVjfgN26d4n2adkTyE6v5w7oSltIo=' 'sha256-KD6vt2E9DISQVfCRVBjQfe6ziS7du3v0UcYF7BmztIs=' 'sha256-dzrC8amo9SebpTP0QYgDthrgW/f4YFqbEgfDyOP67h4=' 'sha256-O0gJHtaFw3TE5Fcn4wWtJwDBDZ70T/5znWzn9l3XzeM=' 'sha256-UAwng/4JHmw0jmeFcEwVLwdu0W/ugD5LprERHUhw0lQ=' 'sha256-dbCE7SLxabymZl1TBHBd6BH3qoTeP/B1kgCz8qFddFk=';script-src-attr 'none';connect-src 'self' https://plausible.io https://cal.werixo.de;frame-src https://challenges.cloudflare.com;media-src 'self' blob:;worker-src 'self' blob:;upgrade-insecure-requests">
 <meta name="robots" content="noindex,nofollow" />
 <title>Monatsbericht · WERIXO</title>
-<meta name="description" content="WERIXO Vorschau (privat, noindex)." />
+<meta name="description" content="WERIXO Vorschau (öffentlich, noindex)." />
 <!-- OG / Twitter -->
 <meta property="og:title" content="WERIXO · Externe IT-Abteilung · Köln &amp; NRW" />
 <meta property="og:type" content="website" />
@@ -478,6 +479,7 @@
   .cal-loc label:has(input:checked) .lt{color:var(--accent)}
   .cal-form-err{font-family:var(--mono);font-size:.74rem;letter-spacing:.02em;color:#C2410C;margin:0 0 12px;line-height:1.4}
   .cal-form-err:empty{display:none}
+  .cal-turnstile{width:100%;min-height:65px;margin:8px 0 4px;display:flex;justify-content:center}
   /* Bestätigung (nach erfolgreicher Buchung) */
   .cal-done{text-align:center;padding:24px 8px}
   .cal-done .cd-ic{width:52px;height:52px;border-radius:50%;background:var(--accent-soft);display:grid;place-items:center;margin:0 auto 16px}
@@ -2968,7 +2970,7 @@
               <span class="cal-slots-date">Ihre Angaben</span>
             </div>
             <p class="cal-form-date"></p>
-            <form novalidate>
+            <form novalidate data-turnstile-sitekey="0x4AAAAAAEZ4qd7QCls3ECz9">
               <div class="cal-field">
                 <label for="cf-name">Name</label>
                 <input id="cf-name" name="name" type="text" autocomplete="name" required placeholder="Vor- und Nachname">
@@ -2998,6 +3000,7 @@
                   <span class="ld">Köln &amp; Umgebung</span>
                 </label>
               </fieldset>
+              <div class="cal-turnstile" aria-label="Automatisierter Missbrauchsschutz"></div>
               <p class="cal-form-err" role="alert"></p>
               <div class="cal-foot">
                 <button class="cal-cta-btn cal-submit" type="submit">Termin verbindlich buchen</button>
@@ -3972,10 +3975,11 @@
     // den same-origin Pfad in werixo-web-v2: der same-origin Proxy funktionierte nur auf dem echten
     // Worker-Host, nicht auf der statischen GitHub-Pages-Vorschau (reines Static Hosting, keine
     // Server-Routen) → Kalender war dort seit dem 07-01-Security-Fix kaputt. Absolute URL + CORS-
-    // Allowlist (werixo.de + die Preview) macht denselben Proxy von überall erreichbar, ohne
-    // werixo-web-v2 anzufassen (das bleibt bis Gate 6 gesperrt). Validiert eventTypeId + drosselt
-    // Buchungsversuche pro IP-Hash (cal-proxy-worker/src/index.ts).
+    // Die aktuelle GitHub-Pages-App spricht ausschließlich den getrennten Kalender-Proxy an.
+    // Der Proxy validiert Origin, Event-Typ, Turnstile und transaktionale HMAC-Rate-Limits.
     const EVENT_TYPE_ID=334609, TZ='Europe/Berlin', API='https://cal.werixo.de/api/cal';
+    const TURNSTILE_API='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+    const TURNSTILE_ACTION='book-calendar', MAX_MONTHS_AHEAD=3;
     const monthV=el.querySelector('.cal-month'), slotsV=el.querySelector('.cal-slots'),
           formV=el.querySelector('.cal-form'), doneV=el.querySelector('.cal-done');
     const monEl=el.querySelector('.cal-mon'), grid=el.querySelector('.cal-grid');
@@ -3987,6 +3991,8 @@
     const now=new Date(); now.setHours(0,0,0,0);
     const curM=now.getMonth(), curY=now.getFullYear();
     let vM=curM, vY=curY, monthSlots={}, selISO=null;
+    let turnstileWidget=null, turnstileToken='', turnstileLoad=null;
+    const turnstileBox=form.querySelector('.cal-turnstile');
     const MONTHS=['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
     const DOW=['Mo','Di','Mi','Do','Fr','Sa','So'];
     const WD=['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];
@@ -3994,16 +4000,74 @@
     const ymd=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
     const hhmm=iso=>{const d=new Date(iso);return pad(d.getHours())+':'+pad(d.getMinutes());};
     function show(view){[monthV,slotsV,formV,doneV].forEach(v=>{if(v)v.hidden=(v!==view);});}
-    function gridMsg(t){grid.innerHTML='<div class="cal-grid-msg">'+t+'</div>';}
+    function gridMsg(t){
+      const msg=document.createElement('div'); msg.className='cal-grid-msg'; msg.textContent=t;
+      grid.replaceChildren(msg);
+    }
+    function getTurnstile(){
+      const api=window.turnstile;
+      return api&&typeof api.render==='function'&&typeof api.reset==='function'?api:null;
+    }
+    function loadTurnstile(){
+      const ready=getTurnstile(); if(ready) return Promise.resolve(ready);
+      if(turnstileLoad) return turnstileLoad;
+      turnstileLoad=new Promise((resolve,reject)=>{
+        const script=document.createElement('script');
+        script.src=TURNSTILE_API; script.async=true; script.defer=true;
+        const timeout=setTimeout(()=>reject(new Error('turnstile_timeout')),8000);
+        script.addEventListener('load',()=>{
+          clearTimeout(timeout);
+          const api=getTurnstile(); if(api) resolve(api); else reject(new Error('turnstile_unavailable'));
+        },{once:true});
+        script.addEventListener('error',()=>{clearTimeout(timeout);reject(new Error('turnstile_load_failed'));},{once:true});
+        document.head.appendChild(script);
+      }).catch(error=>{turnstileLoad=null;throw error;});
+      return turnstileLoad;
+    }
+    function setTurnstilePending(message='Sicherheitsprüfung läuft …'){
+      turnstileToken=''; submitBtn.disabled=true; submitBtn.textContent=message;
+    }
+    async function ensureTurnstile(reset=false){
+      const sitekey=(form.dataset.turnstileSitekey||'').trim();
+      if(!/^[A-Za-z0-9_-]{20,64}$/.test(sitekey)){
+        setTurnstilePending('Buchung derzeit nicht verfügbar');
+        formErr.textContent='Die Sicherheitsprüfung ist noch nicht konfiguriert. Bitte rufen Sie uns an.';
+        return false;
+      }
+      setTurnstilePending();
+      try{
+        const api=await loadTurnstile();
+        if(turnstileWidget===null){
+          turnstileWidget=api.render(turnstileBox,{
+            sitekey, action:TURNSTILE_ACTION, theme:'light', size:'flexible', appearance:'interaction-only',
+            callback:token=>{turnstileToken=token;formErr.textContent='';submitBtn.disabled=false;submitBtn.textContent='Termin verbindlich buchen';},
+            'expired-callback':()=>setTurnstilePending('Sicherheitsprüfung erneuern'),
+            'error-callback':()=>{setTurnstilePending('Sicherheitsprüfung nicht verfügbar');formErr.textContent='Die Sicherheitsprüfung konnte nicht geladen werden. Bitte versuchen Sie es erneut oder rufen Sie uns an.';},
+          });
+        }else if(reset){ api.reset(turnstileWidget); }
+        return true;
+      }catch(error){
+        setTurnstilePending('Sicherheitsprüfung nicht verfügbar');
+        formErr.textContent='Die Sicherheitsprüfung konnte nicht geladen werden. Bitte versuchen Sie es erneut oder rufen Sie uns an.';
+        return false;
+      }
+    }
+    function resetTurnstile(){
+      const api=getTurnstile();
+      turnstileToken='';
+      if(api&&turnstileWidget!==null){setTurnstilePending();api.reset(turnstileWidget);}
+    }
 
     async function loadMonth(){
       monEl.textContent=MONTHS[vM]+' '+vY;
       prev.disabled=(vM===curM&&vY===curY);
+      next.disabled=(vY*12+vM)>=(curY*12+curM+MAX_MONTHS_AHEAD);
       gridMsg('Lädt …');
       const startD=(vY===curY&&vM===curM)?now:new Date(vY,vM,1);
       const endD=new Date(vY,vM+1,0);
       try{
         const r=await fetch(API+'/slots?eventTypeId='+EVENT_TYPE_ID+'&start='+ymd(startD)+'&end='+ymd(endD)+'&timeZone='+encodeURIComponent(TZ));
+        if(!r.ok) throw new Error('availability_failed');
         const j=await r.json();
         monthSlots=(j&&j.data&&typeof j.data==='object')?j.data:{};
       }catch(e){ monthSlots=null; }
@@ -4011,7 +4075,7 @@
     }
     function render(){
       if(monthSlots===null){ gridMsg('Verfügbarkeit konnte nicht geladen werden. Bitte rufen Sie uns an.'); return; }
-      grid.innerHTML='';
+      grid.replaceChildren();
       DOW.forEach(d=>{const c=document.createElement('div');c.className='cal-dow';c.textContent=d;grid.appendChild(c);});
       const lead=(new Date(vY,vM,1).getDay()+6)%7;
       for(let i=0;i<lead;i++) grid.appendChild(document.createElement('div'));
@@ -4028,7 +4092,7 @@
     }
     function openSlots(date,key){
       sDate.textContent=WD[date.getDay()]+', '+date.getDate()+'. '+MONTHS[date.getMonth()];
-      sList.innerHTML='';
+      sList.replaceChildren();
       // Strategische Auswahl: ein Slot je Stunde (bevorzugt :00, da Slots aufsteigend kommen) → nicht jede halbe Stunde, das überfordert.
       const byHour=new Map();
       (monthSlots[key]||[]).forEach(s=>{ const h=new Date(s.start).getHours(); if(!byHour.has(h)) byHour.set(h, s); });
@@ -4053,13 +4117,16 @@
     function openForm(iso,date,tm){
       selISO=iso;
       const human=WD[date.getDay()]+', '+date.getDate()+'. '+MONTHS[date.getMonth()]+' '+vY+', '+tm+' Uhr';
-      formDate.innerHTML='<b>'+human+'</b>';
-      formErr.textContent=''; show(formV);
+      const strong=document.createElement('b'); strong.textContent=human; formDate.replaceChildren(strong);
+      formErr.textContent=''; show(formV); void ensureTurnstile(turnstileWidget!==null);
     }
     back.addEventListener('click',()=>show(monthV));
     formBack.addEventListener('click',()=>show(slotsV));
     prev.addEventListener('click',()=>{if(vM===curM&&vY===curY)return;vM--;if(vM<0){vM=11;vY--;}loadMonth();});
-    next.addEventListener('click',()=>{vM++;if(vM>11){vM=0;vY++;}loadMonth();});
+    next.addEventListener('click',()=>{
+      if((vY*12+vM)>=(curY*12+curM+MAX_MONTHS_AHEAD))return;
+      vM++;if(vM>11){vM=0;vY++;}loadMonth();
+    });
 
     form.addEventListener('submit',async e=>{
       e.preventDefault();
@@ -4069,6 +4136,7 @@
       const online=(fd.get('loc')||'online')==='online';
       if(!name){ formErr.textContent='Bitte geben Sie Ihren Namen an.'; return; }
       if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ formErr.textContent='Bitte geben Sie eine gültige E-Mail-Adresse an.'; return; }
+      if(!turnstileToken){ formErr.textContent='Bitte warten Sie, bis die Sicherheitsprüfung abgeschlossen ist.'; return; }
       formErr.textContent='';
       submitBtn.disabled=true; submitBtn.textContent='Wird gebucht …';
       const body={
@@ -4079,24 +4147,27 @@
       if(phone) body.attendee.phoneNumber=phone;
       const meta={}; if(company) meta.unternehmen=company; if(!online) meta.vor_ort='ja';
       if(Object.keys(meta).length) body.metadata=meta;
+      body.turnstileToken=turnstileToken;
       try{
         const r=await fetch(API+'/bookings',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
         if(r.status===429){
           formErr.textContent='Zu viele Buchungsversuche von Ihrer Verbindung. Bitte versuchen Sie es in einer Stunde erneut oder rufen Sie uns an.';
-          submitBtn.disabled=false; submitBtn.textContent='Termin verbindlich buchen';
+          resetTurnstile();
           return;
         }
         const j=await r.json();
-        if(j&&j.status==='success'&&j.data){
+        if(j&&j.status==='success'){
           doneDate.textContent=formDate.textContent;
           show(doneV);
         }else{
-          formErr.textContent='Dieser Termin ist gerade vergeben worden. Bitte wählen Sie eine andere Uhrzeit.';
-          submitBtn.disabled=false; submitBtn.textContent='Termin verbindlich buchen';
+          if(r.status===403) formErr.textContent='Die Sicherheitsprüfung ist abgelaufen. Bitte versuchen Sie es erneut.';
+          else if(r.status===503) formErr.textContent='Die Buchung ist vorübergehend nicht verfügbar. Bitte rufen Sie uns an.';
+          else formErr.textContent='Dieser Termin ist gerade vergeben worden. Bitte wählen Sie eine andere Uhrzeit.';
+          resetTurnstile();
         }
       }catch(err){
         formErr.textContent='Es gab ein technisches Problem. Bitte versuchen Sie es erneut oder rufen Sie uns an.';
-        submitBtn.disabled=false; submitBtn.textContent='Termin verbindlich buchen';
+        resetTurnstile();
       }
     });
 
