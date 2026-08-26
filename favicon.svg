@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="WERIXO">
+  <rect width="64" height="64" rx="8" fill="#fbf7ef"/>
+  <path d="M7 14h10l5 25 7-25h7l7 25 5-25h9L49 50h-11l-6-19-6 19H15z" fill="#1a1410"/>
+  <rect x="51" y="49" width="8" height="8" fill="#ff5c46"/>
+</svg>
